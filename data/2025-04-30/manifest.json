@@ -1,0 +1,638 @@
+{
+  "snapshot_id": "2025-04-30",
+  "prepared_on": "2026-11-09",
+  "source_archive": "results_AnomalyDetection_20250430.zip",
+  "source_archive_sha256": "3b1975e49f3335db5a9194d5cfc5f1590f24c3d9048ca944017f0d1d15e6c4ee",
+  "source_archive_file_count": 62,
+  "source_archive_extension_counts": {
+    ".txt": 4,
+    ".pdf": 37,
+    ".xlsx": 18,
+    ".bib": 1,
+    ".json": 2
+  },
+  "published_archive_file_count": 61,
+  "excluded": [
+    {
+      "path": "emails.txt",
+      "reason": "Standalone contact-email list excluded at the author's request"
+    }
+  ],
+  "configured_year_start": "2015",
+  "configured_year_end": "2025",
+  "logged_processing_date": "2025-04-30",
+  "logged_timezone": null,
+  "scientific_validation_status": "Historical outputs; not independently reconciled with the manuscript dataset or validated by this deposit",
+  "files": [
+    {
+      "path": "aggr_keyword_source_pivot_relevant.xlsx",
+      "original_bytes": 6255,
+      "published_bytes": 6255,
+      "original_sha256": "4cd652cd5abd691ccf6feaa68bda3b6216749cbab4998bdd9816800491e769f2",
+      "published_sha256": "4cd652cd5abd691ccf6feaa68bda3b6216749cbab4998bdd9816800491e769f2",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_keyword_source_relevant.pdf",
+      "original_bytes": 15795,
+      "published_bytes": 15795,
+      "original_sha256": "ed4b7a29b60b17447ef78900b5eb9667669cafdebf72497063c83398fb99e949",
+      "published_sha256": "ed4b7a29b60b17447ef78900b5eb9667669cafdebf72497063c83398fb99e949",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_keyword_year_pivot_relevant.xlsx",
+      "original_bytes": 6410,
+      "published_bytes": 6410,
+      "original_sha256": "cc30d26f31cdb6d5783691a6670490783a500ec859b712b568c18a9f46457e88",
+      "published_sha256": "cc30d26f31cdb6d5783691a6670490783a500ec859b712b568c18a9f46457e88",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_keyword_year_relevant.pdf",
+      "original_bytes": 15287,
+      "published_bytes": 15287,
+      "original_sha256": "cf54be369df4de5bc834907f02e0152d315205fa8866a66f83caf3ec3af1e792",
+      "published_sha256": "cf54be369df4de5bc834907f02e0152d315205fa8866a66f83caf3ec3af1e792",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_num_countries_affiliations_authors.xlsx",
+      "original_bytes": 19364,
+      "published_bytes": 19364,
+      "original_sha256": "1fb86a9a0752d4629f4c59314cb803690f643fe2b5591f2f7e37cc8a214e1708",
+      "published_sha256": "1fb86a9a0752d4629f4c59314cb803690f643fe2b5591f2f7e37cc8a214e1708",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_prisma.pdf",
+      "original_bytes": 24207,
+      "published_bytes": 24207,
+      "original_sha256": "f22e556b11e3d3eb80678e43ac001661ad174c1c2c5e316a1e30bd59303ace78",
+      "published_sha256": "f22e556b11e3d3eb80678e43ac001661ad174c1c2c5e316a1e30bd59303ace78",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_prisma.xlsx",
+      "original_bytes": 6325,
+      "published_bytes": 6325,
+      "original_sha256": "68344ea7c4a91e9bb6518c9aa586886599bb0734021be9acc4359ad78cc73f87",
+      "published_sha256": "68344ea7c4a91e9bb6518c9aa586886599bb0734021be9acc4359ad78cc73f87",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_prisma_scoping.pdf",
+      "original_bytes": 24073,
+      "published_bytes": 24073,
+      "original_sha256": "06ffc13fdd13c6a930c8849b4f05825a94e6287113b58d42903d4c627d791197",
+      "published_sha256": "06ffc13fdd13c6a930c8849b4f05825a94e6287113b58d42903d4c627d791197",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_group_percentage_ai-models-dl.pdf",
+      "original_bytes": 20688,
+      "published_bytes": 20688,
+      "original_sha256": "95ff1e792d5eefabc4e18009c4462bb759078f41b6bb81dc5690a18de3e9b7e0",
+      "published_sha256": "95ff1e792d5eefabc4e18009c4462bb759078f41b6bb81dc5690a18de3e9b7e0",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_group_percentage_ai-models-shallow.pdf",
+      "original_bytes": 21147,
+      "published_bytes": 21147,
+      "original_sha256": "230b06b1e1e5fe55fc502054561b6fb245da869b78044db033ef6b285a5bd50a",
+      "published_sha256": "230b06b1e1e5fe55fc502054561b6fb245da869b78044db033ef6b285a5bd50a",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_group_percentage_anomaly-detection-models.pdf",
+      "original_bytes": 20009,
+      "published_bytes": 20009,
+      "original_sha256": "652206d123fabbfedf38d95f5f1dcfea2c1f3860a3c6a77b7e0da712e423736b",
+      "published_sha256": "652206d123fabbfedf38d95f5f1dcfea2c1f3860a3c6a77b7e0da712e423736b",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_group_percentage_application-domain.pdf",
+      "original_bytes": 19046,
+      "published_bytes": 19046,
+      "original_sha256": "9f89bbd251e213aff134eddaad0344d0499fb600e0d2fbb4ea2f5aedf78d44ab",
+      "published_sha256": "9f89bbd251e213aff134eddaad0344d0499fb600e0d2fbb4ea2f5aedf78d44ab",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_group_percentage_computing-type.pdf",
+      "original_bytes": 16638,
+      "published_bytes": 16638,
+      "original_sha256": "acb133314bd9924145198e46d1c052ac7baaef6a2c29239b9a9193b4f67afc88",
+      "published_sha256": "acb133314bd9924145198e46d1c052ac7baaef6a2c29239b9a9193b4f67afc88",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_group_percentage_concerns.pdf",
+      "original_bytes": 16992,
+      "published_bytes": 16992,
+      "original_sha256": "cb22d2aa8ebadf1d5e8e2329b09c0664818eb9fa7e33ad015e915950377c20be",
+      "published_sha256": "cb22d2aa8ebadf1d5e8e2329b09c0664818eb9fa7e33ad015e915950377c20be",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_group_percentage_data-modality.pdf",
+      "original_bytes": 15253,
+      "published_bytes": 15253,
+      "original_sha256": "12b24e53f3f743c0afb4a1da0e92c7824ed1b12d5422b25f1dbf58670bec60dc",
+      "published_sha256": "12b24e53f3f743c0afb4a1da0e92c7824ed1b12d5422b25f1dbf58670bec60dc",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_group_percentage_data-source.pdf",
+      "original_bytes": 16370,
+      "published_bytes": 16370,
+      "original_sha256": "8f725a87e215b512c999db958070a584ed46ed5e13d50b72b57733c241a2f7b8",
+      "published_sha256": "8f725a87e215b512c999db958070a584ed46ed5e13d50b72b57733c241a2f7b8",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_group_percentage_data-type-detailed.pdf",
+      "original_bytes": 18857,
+      "published_bytes": 18857,
+      "original_sha256": "575a82019d43967f060b8a316fd9517d60ed4b2cdac36772ee092dae72ff401d",
+      "published_sha256": "575a82019d43967f060b8a316fd9517d60ed4b2cdac36772ee092dae72ff401d",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_group_percentage_data-type.pdf",
+      "original_bytes": 18732,
+      "published_bytes": 18732,
+      "original_sha256": "765aa27238aa71ec9f3706f641df61c4a4b06787dd2c39a1fa6c02d7d17bcae4",
+      "published_sha256": "765aa27238aa71ec9f3706f641df61c4a4b06787dd2c39a1fa6c02d7d17bcae4",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_group_percentage_learning-setting.pdf",
+      "original_bytes": 17427,
+      "published_bytes": 17427,
+      "original_sha256": "ea547f36bc910ed01bf326d8f1e175ae5652d4b2c560594a71f4baebedec26fa",
+      "published_sha256": "ea547f36bc910ed01bf326d8f1e175ae5652d4b2c560594a71f4baebedec26fa",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_group_percentage_main-topics.pdf",
+      "original_bytes": 15319,
+      "published_bytes": 15319,
+      "original_sha256": "d38ffaf964cb44219dcd028ea7177bbc78ff0b7a93c36b94da43be844ace3ded",
+      "published_sha256": "d38ffaf964cb44219dcd028ea7177bbc78ff0b7a93c36b94da43be844ace3ded",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_group_percentage_supervision-type.pdf",
+      "original_bytes": 15720,
+      "published_bytes": 15720,
+      "original_sha256": "9b7850b9ab464c8b0b7518f52958c498123860d043c4aa64dac4de2a18ae3f94",
+      "published_sha256": "9b7850b9ab464c8b0b7518f52958c498123860d043c4aa64dac4de2a18ae3f94",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_group_year.pdf",
+      "original_bytes": 23669,
+      "published_bytes": 23669,
+      "original_sha256": "930c6cd9517532efac9d4d827519181fb40415f65d7335fd258b6dc056bb743b",
+      "published_sha256": "930c6cd9517532efac9d4d827519181fb40415f65d7335fd258b6dc056bb743b",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_group_year_pivot.xlsx",
+      "original_bytes": 7134,
+      "published_bytes": 7134,
+      "original_sha256": "8b3a9083446ca419aa1c6f1009429c23449d8ccc995430d10264dca81693c174",
+      "published_sha256": "8b3a9083446ca419aa1c6f1009429c23449d8ccc995430d10264dca81693c174",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_year.xlsx",
+      "original_bytes": 22787,
+      "published_bytes": 22787,
+      "original_sha256": "09b4df60f75e6eda73886ed6373556408364da1bd9160408d59febab69aecf38",
+      "published_sha256": "09b4df60f75e6eda73886ed6373556408364da1bd9160408d59febab69aecf38",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_year_ai-models-dl.pdf",
+      "original_bytes": 24046,
+      "published_bytes": 24046,
+      "original_sha256": "9f485a585272c7109b663249408a1f7cc00a7a3b9f0e8abbac051de07fe66d3b",
+      "published_sha256": "9f485a585272c7109b663249408a1f7cc00a7a3b9f0e8abbac051de07fe66d3b",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_year_ai-models-shallow.pdf",
+      "original_bytes": 25811,
+      "published_bytes": 25811,
+      "original_sha256": "3ab0851772bce738bb5e7c5dcf5152adcce7b0ea371a416823083bed943ed41a",
+      "published_sha256": "3ab0851772bce738bb5e7c5dcf5152adcce7b0ea371a416823083bed943ed41a",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_year_anomaly-detection-models.pdf",
+      "original_bytes": 23203,
+      "published_bytes": 23203,
+      "original_sha256": "51035f523db0b694ff83132077dc4598c2ae2bf66bcd187e019f47e4c0b52a08",
+      "published_sha256": "51035f523db0b694ff83132077dc4598c2ae2bf66bcd187e019f47e4c0b52a08",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_year_application-domain.pdf",
+      "original_bytes": 21375,
+      "published_bytes": 21375,
+      "original_sha256": "19e91bbfcd4b5ac97f0b766fafd097a44b441b1f28d85a0566b26b755965bbe0",
+      "published_sha256": "19e91bbfcd4b5ac97f0b766fafd097a44b441b1f28d85a0566b26b755965bbe0",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_year_computing-type.pdf",
+      "original_bytes": 17849,
+      "published_bytes": 17849,
+      "original_sha256": "4c9ed056d0d28e998fb76a27acaaf7df8c0385106644c54c347d8c9558682055",
+      "published_sha256": "4c9ed056d0d28e998fb76a27acaaf7df8c0385106644c54c347d8c9558682055",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_year_concerns.pdf",
+      "original_bytes": 18272,
+      "published_bytes": 18272,
+      "original_sha256": "854586a48bf9228434c2911238d6c2ed905ba4a078b24f21cd1b3845f88985ab",
+      "published_sha256": "854586a48bf9228434c2911238d6c2ed905ba4a078b24f21cd1b3845f88985ab",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_year_data-modality.pdf",
+      "original_bytes": 15755,
+      "published_bytes": 15755,
+      "original_sha256": "aadbc82503d80da6546e5c434bc9506034026d253a3e76396e64cc60befe88a9",
+      "published_sha256": "aadbc82503d80da6546e5c434bc9506034026d253a3e76396e64cc60befe88a9",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_year_data-source.pdf",
+      "original_bytes": 16463,
+      "published_bytes": 16463,
+      "original_sha256": "b2084c030d75b8795f5a872d9520b108ff740b540e4f85b05b281ec7cac816ef",
+      "published_sha256": "b2084c030d75b8795f5a872d9520b108ff740b540e4f85b05b281ec7cac816ef",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_year_data-type-detailed.pdf",
+      "original_bytes": 21559,
+      "published_bytes": 21559,
+      "original_sha256": "d03b587fa293ed01a52433e62294f476835415a927053b434f1a1c9ca0b0eaec",
+      "published_sha256": "d03b587fa293ed01a52433e62294f476835415a927053b434f1a1c9ca0b0eaec",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_year_data-type.pdf",
+      "original_bytes": 20885,
+      "published_bytes": 20885,
+      "original_sha256": "412fcb369d4ed4d2f0feba8fd24766085833a7bc338d07c20aa656dd696b4791",
+      "published_sha256": "412fcb369d4ed4d2f0feba8fd24766085833a7bc338d07c20aa656dd696b4791",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_year_learning-setting.pdf",
+      "original_bytes": 19383,
+      "published_bytes": 19383,
+      "original_sha256": "87c69fd20f78853aad61a26900616ce415be608b69a07ee9029054d99bfe196d",
+      "published_sha256": "87c69fd20f78853aad61a26900616ce415be608b69a07ee9029054d99bfe196d",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_year_main-topics.pdf",
+      "original_bytes": 16842,
+      "published_bytes": 16842,
+      "original_sha256": "2413204996d9a9d4cd7d5d4458af062d8faaa47006b6cb9073287ee0fed59dab",
+      "published_sha256": "2413204996d9a9d4cd7d5d4458af062d8faaa47006b6cb9073287ee0fed59dab",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_year_pivot.xlsx",
+      "original_bytes": 12125,
+      "published_bytes": 12125,
+      "original_sha256": "7f0ae728283879dd8a5cdb996457fb0fb20e0465e3bc87592244c53fe0d9f520",
+      "published_sha256": "7f0ae728283879dd8a5cdb996457fb0fb20e0465e3bc87592244c53fe0d9f520",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_year_supervision-type.pdf",
+      "original_bytes": 15954,
+      "published_bytes": 15954,
+      "original_sha256": "7e3d7a5c898c48fc7953d4a1dd2cb931f41855d9ddade024da2ebe0356f4e344",
+      "published_sha256": "7e3d7a5c898c48fc7953d4a1dd2cb931f41855d9ddade024da2ebe0356f4e344",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_source.pdf",
+      "original_bytes": 17279,
+      "published_bytes": 17279,
+      "original_sha256": "7d09e6c72bf8130e43909b72f1c8cecb9441b3efb89f9d23149cbc8dada700d6",
+      "published_sha256": "7d09e6c72bf8130e43909b72f1c8cecb9441b3efb89f9d23149cbc8dada700d6",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_source.xlsx",
+      "original_bytes": 6513,
+      "published_bytes": 6513,
+      "original_sha256": "c6f317e314705ccd993e626ead3a5e2cfcf70ff2e68c25458d8d6a4c39dc7858",
+      "published_sha256": "c6f317e314705ccd993e626ead3a5e2cfcf70ff2e68c25458d8d6a4c39dc7858",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_source_year.xlsx",
+      "original_bytes": 6851,
+      "published_bytes": 6851,
+      "original_sha256": "2f81c771de2d077946e5c0288e8ca344af05fe8713de04012b8327f68d492c14",
+      "published_sha256": "2f81c771de2d077946e5c0288e8ca344af05fe8713de04012b8327f68d492c14",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_source_year_pivot_analyzed.xlsx",
+      "original_bytes": 6457,
+      "published_bytes": 6457,
+      "original_sha256": "2c33657e380a0b4783217362a082ae77137e17792f7f33721248fca71adf2cac",
+      "published_sha256": "2c33657e380a0b4783217362a082ae77137e17792f7f33721248fca71adf2cac",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_source_year_pivot_relevant.xlsx",
+      "original_bytes": 6439,
+      "published_bytes": 6439,
+      "original_sha256": "22ccb5f2325784769c58a3057cfd2814f7827b37b10fd3c46e990981ade43871",
+      "published_sha256": "22ccb5f2325784769c58a3057cfd2814f7827b37b10fd3c46e990981ade43871",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_source_year_relevant.pdf",
+      "original_bytes": 17160,
+      "published_bytes": 17160,
+      "original_sha256": "ffa5b0d98eedb6440488e0b592d684dc69ba5564c349b2064b3e7f2831a9b684",
+      "published_sha256": "ffa5b0d98eedb6440488e0b592d684dc69ba5564c349b2064b3e7f2831a9b684",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_year.pdf",
+      "original_bytes": 14476,
+      "published_bytes": 14476,
+      "original_sha256": "774d61d89fe99db525831a430d6afe6925164cf839cace6a6e6c98ae2e6039e4",
+      "published_sha256": "774d61d89fe99db525831a430d6afe6925164cf839cace6a6e6c98ae2e6039e4",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_year.xlsx",
+      "original_bytes": 6289,
+      "published_bytes": 6289,
+      "original_sha256": "850ec546731e98383487d50aec245be12aecd840934c795030ed3b12501c8cc0",
+      "published_sha256": "850ec546731e98383487d50aec245be12aecd840934c795030ed3b12501c8cc0",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "articles.bib",
+      "original_bytes": 2286095,
+      "published_bytes": 2286098,
+      "original_sha256": "0b33fbb18054ae93ef376696c6153a9c89053e426c50e840297754d8cbd75f67",
+      "published_sha256": "ef15ce1d1cf0456925b29f08a842ba266e9a91a064cb67d53bec95aa6793e115",
+      "transformation": "contact_email_redaction",
+      "email_address_replacements": 1,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "articles.xlsx",
+      "original_bytes": 13404017,
+      "published_bytes": 13307487,
+      "original_sha256": "cf871f62947a4af1677d25de0f76866a5a4b5eee1f82ebf17ce58a02f5c76a71",
+      "published_sha256": "6b30f42cadd1de0dcb54daf67babe184c5f94954ac87aff8eb66471620af83f1",
+      "transformation": "contact_email_redaction",
+      "email_address_replacements": 8071,
+      "email_column_cells_cleared": 7697
+    },
+    {
+      "path": "articles_invalid.xlsx",
+      "original_bytes": 7337,
+      "published_bytes": 7328,
+      "original_sha256": "55d00c13eb25df95a8aef4001dcfb5a085b3e3de35854cffed34eb5b64e55bd6",
+      "published_sha256": "18227e1faf17c4762788992e4f4e872c4e06f3fb95bbb39ac184f79deffe4c23",
+      "transformation": "contact_email_redaction",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 1
+    },
+    {
+      "path": "articles_parsing_errors.xlsx",
+      "original_bytes": 531648,
+      "published_bytes": 529024,
+      "original_sha256": "4d27a0d3fb779e72727c5db0065666fbf5ed1578d3efc76e0ec52dd39b591fd3",
+      "published_sha256": "b37e6a7d8af78bea458c363f55d7218509a8952f1fd25b4f8e98c81286438791",
+      "transformation": "contact_email_redaction",
+      "email_address_replacements": 17,
+      "email_column_cells_cleared": 2938
+    },
+    {
+      "path": "filtered_articles.xlsx",
+      "original_bytes": 14362348,
+      "published_bytes": 14266842,
+      "original_sha256": "b119f8568417e07937cbb5aa821a8ddf51439a47af4b60c040aca2f0ce292e32",
+      "published_sha256": "97570da68aa3e7fb393cc96f5ff7eb7dc20d7942ca921045225d35a2114c24d3",
+      "transformation": "contact_email_redaction",
+      "email_address_replacements": 7967,
+      "email_column_cells_cleared": 7271
+    },
+    {
+      "path": "filtered_graph_all_countries.pdf",
+      "original_bytes": 38837,
+      "published_bytes": 38837,
+      "original_sha256": "24b6b81381264fe92db4785f3593f8a85cec54bcd388b64fcf1d4fd21ddd9b0d",
+      "published_sha256": "24b6b81381264fe92db4785f3593f8a85cec54bcd388b64fcf1d4fd21ddd9b0d",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "filtered_graph_all_properties.pdf",
+      "original_bytes": 235010,
+      "published_bytes": 235010,
+      "original_sha256": "5b4e1e34da40a64499905bd2e8e0d88579d0f8ab04438dfe88daa9e937f07e29",
+      "published_sha256": "5b4e1e34da40a64499905bd2e8e0d88579d0f8ab04438dfe88daa9e937f07e29",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "filtered_graph_data.xlsx",
+      "original_bytes": 735913,
+      "published_bytes": 735913,
+      "original_sha256": "33a3cda2f16e657d0e2208ac83d5538b602bdc4421d778c70bdc4041e0a47cd3",
+      "published_sha256": "33a3cda2f16e657d0e2208ac83d5538b602bdc4421d778c70bdc4041e0a47cd3",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "filtered_graph_properties.xlsx",
+      "original_bytes": 30325,
+      "published_bytes": 30325,
+      "original_sha256": "516ec8dd72dc3d782cb0ab7f361dff4c54859e7851ed887fad535a419acf781d",
+      "published_sha256": "516ec8dd72dc3d782cb0ab7f361dff4c54859e7851ed887fad535a419acf781d",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_all_properties.pdf",
+      "original_bytes": 203904,
+      "published_bytes": 203904,
+      "original_sha256": "c9df6c10cfc0226fa9d6876346fdd19ce82ef722173fffb695af47503d796a84",
+      "published_sha256": "c9df6c10cfc0226fa9d6876346fdd19ce82ef722173fffb695af47503d796a84",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "search_data_original.json",
+      "original_bytes": 17362,
+      "published_bytes": 17362,
+      "original_sha256": "a11df8a01dde010c4b82df640cbed00217538148f8ed0014e65bc9097738f490",
+      "published_sha256": "a11df8a01dde010c4b82df640cbed00217538148f8ed0014e65bc9097738f490",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "search_data_simple.txt",
+      "original_bytes": 15511,
+      "published_bytes": 15511,
+      "original_sha256": "d9d956ccdcd8924e2212d25b3f50f6b157b7b8f3a2e3665424aa676e4de6b90c",
+      "published_sha256": "d9d956ccdcd8924e2212d25b3f50f6b157b7b8f3a2e3665424aa676e4de6b90c",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "searched_data.json",
+      "original_bytes": 32461,
+      "published_bytes": 32461,
+      "original_sha256": "781bafc4ae1275bc943f9b4c9bbe3a4e465dd8787923ec7be457728288d1cb64",
+      "published_sha256": "781bafc4ae1275bc943f9b4c9bbe3a4e465dd8787923ec7be457728288d1cb64",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "status.txt",
+      "original_bytes": 966,
+      "published_bytes": 966,
+      "original_sha256": "c4522bcdf2cf2918fd89fde960dfd83400a3a9fcd7d957ff8eb45993a273a671",
+      "published_sha256": "c4522bcdf2cf2918fd89fde960dfd83400a3a9fcd7d957ff8eb45993a273a671",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "status_long.txt",
+      "original_bytes": 17711,
+      "published_bytes": 17711,
+      "original_sha256": "73bd90e9448ca3e46e3447e3689d5f5e6ee90b404847a7421187a56dd3eb984b",
+      "published_sha256": "73bd90e9448ca3e46e3447e3689d5f5e6ee90b404847a7421187a56dd3eb984b",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    }
+  ]
+}

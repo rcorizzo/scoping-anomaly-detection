@@ -1,0 +1,50 @@
+{
+    "Property Stemming": [
+        "2025-04-30 15:55:24",
+        "Completed"
+    ],
+    "IEEE": [
+        "2025-04-30 16:15:05",
+        "Completed"
+    ],
+    "Springer": [
+        "2025-04-30 16:16:14",
+        "Completed"
+    ],
+    "MDPI": [
+        "2025-04-30 16:16:15",
+        "Completed"
+    ],
+    "PubMed": [
+        "2025-04-30 16:16:28",
+        "Completed"
+    ],
+    "Elsevier": [
+        "2025-04-30 16:16:37",
+        "Completed"
+    ],
+    "Process articles": [
+        "2025-04-30 16:37:08",
+        "Completed"
+    ],
+    "Merge Scraped Articles": [
+        "2025-04-30 16:16:45",
+        "Completed"
+    ],
+    "Create bibtex entries": [
+        "2025-04-30 16:16:52",
+        "Completed"
+    ],
+    "Tokenizing articles": [
+        "2025-04-30 16:17:51",
+        "Completed"
+    ],
+    "Generate bibtex": [
+        "2025-04-30 16:21:11",
+        "Completed"
+    ],
+    "Plotting": [
+        "2025-04-30 16:37:08",
+        "Completed"
+    ]
+}

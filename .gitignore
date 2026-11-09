@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.private/
+emails.txt
+results_AnomalyDetection_20250430.zip

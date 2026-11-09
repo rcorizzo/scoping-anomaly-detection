@@ -1,0 +1,121 @@
+Keywords:
+	Anomaly detection OR
+	Outlier detection OR
+	Out of distribution detection
+
+Properties:
+Main topics:
+	Anomaly detection.
+	Outlier detection.
+	Out of distribution detection.
+	Photovoltaic.
+Anomaly detection models:
+	Autoencoder OR Variational Autoencoder OR VAE.
+	Isolation Forest OR iForest.
+	One-Class SVM OR One Class Support Vector Machine.
+	LOF OR Local Outlier Factor.
+	LSTM OR LSTM Autoencoder OR Long Short-Term Memory.
+	GRU OR Gated Recurrent Unit.
+	RNN OR Recurrent Neural Network.
+	Transformer OR Anomaly Transformer.
+	ARIMA OR AutoRegressive Integrated Moving Average.
+	SARIMA OR Seasonal ARIMA OR Seasonal AutoRegressive Integrated Moving Average.
+	Prophet.
+	HBOS OR Histogram-Based Outlier Score.
+	Gaussian Mixture OR GMM.
+	Bayesian OR Bayesian changepoint detection.
+Supervision type:
+	Supervised OR classification OR regression.
+	Unsupervised OR zero-shot OR zero shot.
+	Semi-supervised OR semisupervised OR one-class OR few shot OR few-shot OR limited supervision OR limited labels.
+Computing type:
+	Cloud computing OR AWS OR Azure OR GCP OR Google Cloud OR Azure Web Services.
+	Edge computing OR on-device computing OR on-device processing OR on-device calculation OR fog computing OR mobile device OR smartphone OR dew computing.
+	Big Data OR Parallel processing OR Parallel computing OR Spark OR Hadoop OR Distributed implementation OR Horovod framework OR Ray framework.
+	GPU OR GPUs.
+Learning setting:
+	Reinforcement learning OR RL OR Optimal policy OR Comulative reward OR action and state.
+	Meta-learning OR student teacher OR knowledge distillation OR distillation OR transfer learning OR domain incremental.
+	Adversarial OR GAN OR Generative Adversarial Network.
+	Quantum computing.
+	Active learning OR human-in-the-loop.
+	Privacy-preserving OR Private learning OR Secure learning OR Privacy-enhancing OR differential privacy OR DP-SGD OR Federated learning.
+Application Domain:
+	Cybersecurity OR Intrusion Detection OR Malware Detection OR Fraud Detection OR Threat Detection OR Botnet Detection OR Log anomaly detection OR Malicious activities OR Attacks OR Information Security OR Network Security OR Data Protection OR Phishing Detection OR Ransomware Protection OR Vulnerability Assessment OR Penetration Testing OR Endpoint Security OR Zero Trust Security.
+	Cyber-physical systems OR Cyberphysical systems OR Power grids OR Photovoltaic OR Wind energy OR Eolic OR Solar OR Smart grid OR Industrial Control Systems OR SCADA OR Smart infrastructure OR Renewable energy OR Energy management systems OR Microgrid OR Smart metering OR Grid automation.
+	IoT OR Internet of Things OR Smart home OR Smart cities OR Smart city OR Connected devices OR Wearable devices OR Industrial IoT OR Smart devices OR Edge devices OR Embedded systems OR Home automation OR Smart appliances OR M2M OR Machine-to-Machine.
+	Manufacturing OR Industrial IoT OR IIoT OR Defect prediction OR Defect detection OR Fault detection OR Industrial sector OR Factory OR Fabrication OR Assembly line OR Industrial manufacturing OR Mass production OR Process industry OR Automation industry OR Industrial engineering OR Smart manufacturing.
+	Weather OR Meteorological OR Temperature OR Pollution OR Rainfall OR Climate OR Humidity OR Atmospheric conditions OR Air quality OR Storms OR Precipitation OR Climate change OR Weather forecasting OR Wind speed OR Heatwave OR Drought OR Natural disasters.
+	Blockchain OR Cryptocurrency OR Distributed ledger OR Smart contracts OR Decentralized finance OR Bitcoin OR Ethereum OR Tokenization OR Crypto assets OR NFTs OR Digital ledger OR Blockchain technology OR Public ledger OR Decentralized apps OR DApps OR Altcoins.
+	Healthcare OR health care OR Medical OR EEG OR ECG OR X-Ray OR disease OR EHR OR Electronic health records OR Physionet OR Disease OR Clinical OR Telemedicine OR Hospital OR Medical devices OR Diagnostics OR Patient care OR Health informatics OR Public health OR Medical imaging OR Biomedical OR Epidemiology.
+	Renewable Energy OR Solar panels OR PV modules OR Photovoltaic panels OR Solar arrays OR PV plants OR Photovoltaic plants OR Solar power plants OR Solar farms OR PV farms OR Solar energy facilities OR PV generation stations OR Solar generation systems OR Wind energy OR Wind power OR Wind farms OR Wind turbines OR Wind-based energy OR Inverters OR Smart metering OR Grid automation OR Power grids OR Smart grid.
+Data modality:
+	Offline data OR Offline dataset OR batch processing OR static data OR historical data.
+	Streaming data OR Online data OR Online dataset OR Streaming dataset OR data streams OR Real-time data OR Real-time dataset OR real-time processing OR online algorithm OR Low Latency OR Incremental Learning OR Incremental processing OR delta processing OR Continual data OR Adaptive Thresholding OR Continual dataset OR lifelong data OR lifelong dataset.
+Data type:
+	Tabular OR NSL-KDD OR CICIDS OR KDD99 OR UNSW OR KDD 99.
+	Time series OR time-series OR temporal.
+	Text OR text data OR text anomaly detection.
+	Spatio-temporal OR spatiotemporal.
+	Image OR images OR imaging.
+	Graph OR graph-based.
+	Multimodal OR multi-modal OR data fusion.
+	Video OR video-based.
+	Renewable energy data OR PV system data OR Photovoltaic data OR Solar panel data OR Wind energy data OR SCADA data OR Energy monitoring data.
+Data type detailed:
+	Tabular OR NSL-KDD OR CICIDS OR KDD99 OR UNSW OR KDD 99 OR Structured data OR CSV data OR Excel data OR Relational data OR Database tables OR Flat files OR Data frames OR Structured datasets.
+	Time series OR Time-series OR Temporal OR Sequential data OR Chronological data OR Streaming data OR Timestamped data OR Dynamic data OR Trend data OR Sensor data OR Signal data.
+	Text OR Text data OR Text anomaly detection OR Unstructured text OR Natural language data OR Document data OR Corpus OR NLP data OR Textual content OR Linguistic data OR Semantic data.
+	Spatio-temporal OR Spatiotemporal OR Spatial-temporal OR Geo-temporal OR Space-time data OR Spatial-temporal datasets OR Location-based temporal data OR Geospatial-temporal data.
+	Image OR Images OR Imaging OR Visual data OR Picture data OR Photographic data OR Pixel data OR Raster data OR Image datasets OR Digital images OR 2D data.
+	Graph data OR Graph-based OR Node-link data OR Graph structures OR Graph networks OR Topological data OR Adjacency data OR Graph representations OR Relational graphs.
+	Multimodal OR Multi-modal OR Data fusion OR Cross-modal data OR Heterogeneous data OR Multi-source data OR Integrated data OR Combined data types OR Multisensory data OR Hybrid data.
+	Video OR Video-based OR Video data OR Multiframe data OR Motion data OR Streaming video OR Dynamic visual data OR Temporal video OR Moving image data OR Cinematic data.
+	Renewable energy system data OR Photovoltaic data OR PV plant data OR Solar generation data OR SCADA energy data OR Smart grid data OR Wind turbine data OR Wind energy datasets OR Inverter monitoring data OR Solar panel sensor data OR Energy production time series.
+Data source:
+	Synthetic data OR Synthetic dataset OR Synthetic data set OR generated data OR artificial data OR artificial dataset OR artificial data set OR generated dataset OR generated data set.
+	Real-world data OR Real-world dataset OR Authentic dataset OR Practical dataset OR Actual dataset OR Empirical dataset OR Genuine dataset OR Observed dataset OR Raw dataset OR Field dataset OR Live dataset OR Experimental dataset OR Operational dataset OR Production dataset OR Business dataset OR Sensor dataset OR Customer dataset OR Financial dataset OR Medical dataset.
+	Dataset OR data set.
+AI models - DL:
+	MLP OR Multi-layer Perceptron OR fully connected OR fully-connected OR Dense Neural Network OR Feedforward Neural Network OR FFNN OR Deep Fully Connected Network OR Dense Layer Network.
+	Auto-encoder OR autoencoder OR AE OR Deep Autoencoder OR Stacked Autoencoder OR Variational Autoencoder OR VAE OR Denoising Autoencoder.
+	Attention-based OR Attention head OR Transformer model OR Transformer architecture OR Transformer layer OR Attention neural network OR attention layer OR Self-attention OR Scaled Dot-Product Attention OR Multi-head Attention OR Attention mechanism OR Transformer-based.
+	RNN/LSTM OR RNN OR LSTM OR Long-Short Term Memory OR Long-Short-Term-Memory OR Long Short-Term Memory OR LSTM-based OR LSTM-RNN OR Recurrent Neural Network OR GRU OR Gated Recurrent Unit OR Bidirectional LSTM OR BiLSTM OR Vanilla RNN OR Stacked LSTM OR Attention LSTM OR LSTM Cell.
+	CNN OR CNNs OR Convolutional Neural Networks OR convolutional layer OR CNN-based OR ConvNet OR Deep Convolutional Network OR 2D CNN OR 3D CNN OR Convolutional Feature Extractor OR ResNet OR VGGNet OR AlexNet.
+	GAN OR Generative Adversarial Networks OR GANs OR Generative adversarial learning OR Generative adversarial OR GAN-based OR Adversarial Training OR Deep Convolutional GAN OR DCGAN OR CycleGAN OR StyleGAN OR Wasserstein GAN OR WGAN OR Conditional GAN OR cGAN OR Pix2Pix GAN.
+	Capsule Networks OR CapsNet OR Dynamic Routing Networks OR Hinton's Capsule Networks OR Inverse Graphics Networks.
+	Graph Neural Networks OR GNN OR Graph-based Neural Network OR Graph Convolutional Network OR GCN OR Graph Attention Network OR GAT OR Message Passing Neural Network OR MPNN.
+	Energy-based Models OR EBM OR Restricted Boltzmann Machine OR RBM OR Deep Belief Network OR DBN.
+	Self-Supervised Learning OR SSL OR Contrastive Learning OR MoCo OR BYOL OR SimCLR OR DINO OR Masked Autoencoder OR MAE.
+	Reinforcement Learning-based DL OR Deep Q-Network OR DQN OR Policy Gradient OR Actor-Critic OR A3C OR PPO OR TD3 OR SAC OR Advantage Actor-Critic.
+	Diffusion Models OR Denoising Diffusion Probabilistic Models OR DDPM OR Latent Diffusion Model OR LDM OR Stable Diffusion OR Score-Based Generative Models OR SDE-based Models.
+AI models - Shallow:
+	Decision Trees OR Random Forest OR Isolation Forest OR XGBoost OR LightGBM OR Gradient boosting OR Extra trees OR CART OR Classification and Regression Trees OR Ensemble Trees OR AdaBoost OR CatBoost OR GBDT OR GBM.
+	Bayesian Learning OR Bayes net OR Graphical Model OR PGM OR Bayesian Networks OR Viterbi OR Sum-Product Networks OR Probabilistic circuits OR Probabilistic Inference OR Naïve Bayes OR Bayesian Classifier OR Bayesian Decision Theory.
+	Statistical Based OR Statistical Test OR KS Test OR t-Test OR COPOD OR Z-Score OR Gaussian Mixture Models OR Histogram-based OR EM OR Expectation Maximization OR Hidden Markov Models OR HMM OR HMMs OR ABOD OR Anomaly Detection Models OR GMM.
+	SVM OR SVMs OR Support Vector Machines OR OC-SVM OR OCSVM OR Kernel SVM OR Linear SVM OR Non-linear SVM.
+	Logistic Regression OR Regression OR Binary Logistic Regression OR Multinomial Logistic Regression OR Ordinal Logistic Regression OR Linear Regression OR Polynomial Regression OR Ridge Regression OR Lasso Regression OR Elastic Net Regression.
+	k-Nearest-Neighbors OR k-NN OR kNN OR LOF OR Local Outlier Factor OR Distance-based Learning OR Instance-Based Learning.
+	Rule-Based Learning OR Rule-Based Models OR Fuzzy Logic Systems OR Expert Systems OR Decision Rules OR IF-THEN Rules.
+	Clustering Algorithms OR K-Means OR KMeans OR Hierarchical Clustering OR DBSCAN OR Agglomerative Clustering OR Mean Shift Clustering OR Gaussian Mixture Model Clustering OR Spectral Clustering OR Density-based Clustering.
+	Dimensionality Reduction OR PCA OR Principal Component Analysis OR t-SNE OR t-Distributed Stochastic Neighbor Embedding OR UMAP OR MDS OR Multidimensional Scaling OR ISOMAP OR LDA OR Linear Discriminant Analysis OR Factor Analysis.
+	Association Rule Learning OR Apriori Algorithm OR Eclat Algorithm OR Market Basket Analysis OR Frequent Pattern Mining.
+	Linear Models OR Least Squares OR Ordinary Least Squares OR Generalized Linear Models OR GLM OR Regularized Regression.
+	Prototype-based Learning OR RBF Networks OR Radial Basis Function Networks OR LVQ OR Learning Vector Quantization.
+	Genetic Algorithms OR Evolutionary Computation OR Evolutionary Algorithms OR Optimization Algorithms OR Metaheuristic Algorithms.
+	Reinforcement Learning (Shallow) OR Q-Learning OR SARSA OR TD-Learning OR Multi-Armed Bandit.
+Concerns:
+	Data noise OR Label noise OR noisy data OR corrupted OR false measurements.
+	Scalability OR Big Data OR Parallel OR Distributed implementation OR Apache Spark OR Spark OR Hadoop OR Horovod OR Ray.
+	Privacy OR privacy-preserving OR differential privacy OR DP-SGD OR Federated.
+	Security OR secure OR Safety OR Trustworthy.
+	Interpretability OR Explainability OR interpretable OR explainable OR XAI.
+Paper type:
+	Review paper OR Review article OR Scoping review OR Systematic review OR Survey paper OR Survey article OR Scoping Survey OR Systematic Survey.
+
+Properties mandatory:
+	(Anomaly detection OR Out of distribution detection OR Outlier detection OR Photovoltaic) AND 
+	(Air quality OR Altcoins OR Assembly line OR Atmospheric conditions OR Attacks OR Automation industry OR Biomedical OR Bitcoin OR Blockchain OR Blockchain technology OR Botnet Detection OR Climate OR Climate change OR Clinical OR Connected devices OR Crypto assets OR Cryptocurrency OR Cyber-physical systems OR Cyberphysical systems OR Cybersecurity OR DApps OR Data Protection OR Decentralized apps OR Decentralized finance OR Defect detection OR Defect prediction OR Diagnostics OR Digital ledger OR Disease OR Distributed ledger OR Drought OR ECG OR EEG OR EHR OR Edge devices OR Electronic health records OR Embedded systems OR Endpoint Security OR Energy management systems OR Eolic OR Epidemiology OR Ethereum OR Fabrication OR Factory OR Fault detection OR Fraud Detection OR Grid automation OR Grid automation OR Health informatics OR Healthcare OR Heatwave OR Home automation OR Hospital OR Humidity OR IIoT OR Industrial Control Systems OR Industrial IoT OR Industrial IoT OR Industrial engineering OR Industrial manufacturing OR Industrial sector OR Information Security OR Internet of Things OR Intrusion Detection OR Inverters OR IoT OR Log anomaly detection OR M2M OR Machine-to-Machine OR Malicious activities OR Malware Detection OR Manufacturing OR Mass production OR Medical OR Medical devices OR Medical imaging OR Meteorological OR Microgrid OR NFTs OR Natural disasters OR Network Security OR PV farms OR PV generation stations OR PV modules OR PV plants OR Patient care OR Penetration Testing OR Phishing Detection OR Photovoltaic OR Photovoltaic panels OR Photovoltaic plants OR Physionet OR Pollution OR Power grids OR Power grids OR Precipitation OR Process industry OR Public health OR Public ledger OR Rainfall OR Ransomware Protection OR Renewable Energy OR Renewable energy OR SCADA OR Smart appliances OR Smart cities OR Smart city OR Smart contracts OR Smart devices OR Smart grid OR Smart grid OR Smart home OR Smart infrastructure OR Smart manufacturing OR Smart metering OR Smart metering OR Solar OR Solar arrays OR Solar energy facilities OR Solar farms OR Solar generation systems OR Solar panels OR Solar power plants OR Storms OR Telemedicine OR Temperature OR Threat Detection OR Tokenization OR Vulnerability Assessment OR Wearable devices OR Weather OR Weather forecasting OR Wind energy OR Wind energy OR Wind farms OR Wind power OR Wind speed OR Wind turbines OR Wind-based energy OR X-Ray OR Zero Trust Security OR disease OR health care)
+
+Excluded papers that contain:
+	Review paper OR Review article OR Scoping review OR Systematic review OR Survey paper OR Survey article OR Scoping Survey OR Systematic Survey
