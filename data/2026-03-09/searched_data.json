@@ -1,0 +1,696 @@
+{
+    "path": "/mnt/sda/article-analysis/data/Roberto_AnomalyDetection_20250717",
+    "keywords": [
+        "Anomaly detection",
+        "Outlier detection",
+        "Out of distribution detection"
+    ],
+    "properties": [
+        {
+            "property_group": "Main topics",
+            "synonyms": [
+                [
+                    "Anomaly detection"
+                ],
+                [
+                    "Outlier detection"
+                ],
+                [
+                    "Out of distribution detection"
+                ]
+            ],
+            "is_mandatory": true
+        },
+        {
+            "property_group": "Supervision type",
+            "synonyms": [
+                [
+                    "Supervised",
+                    "regression"
+                ],
+                [
+                    "Unsupervised",
+                    "zero-shot",
+                    "zero shot"
+                ],
+                [
+                    "Semi-supervised",
+                    "semisupervised",
+                    "one-class",
+                    "few shot",
+                    "few-shot",
+                    "limited supervision",
+                    "limited labels"
+                ],
+                [
+                    "Self-Supervised Learning",
+                    "SSL",
+                    "Contrastive Learning",
+                    "MoCo",
+                    "BYOL",
+                    "SimCLR",
+                    "DINO",
+                    "Masked Autoencoder",
+                    "MAE"
+                ]
+            ]
+        },
+        {
+            "property_group": "Learning setting",
+            "synonyms": [
+                [
+                    "Reinforcement learning",
+                    "RL",
+                    "Optimal policy",
+                    "Cumulative reward",
+                    "action and state"
+                ],
+                [
+                    "Meta-learning",
+                    "student teacher",
+                    "knowledge distillation",
+                    "distillation",
+                    "transfer learning",
+                    "domain incremental"
+                ],
+                [
+                    "Adversarial Learning",
+                    "GAN",
+                    "Generative Adversarial Network"
+                ],
+                [
+                    "Quantum computing",
+                    "Quantum"
+                ],
+                [
+                    "Active learning",
+                    "human-in-the-loop"
+                ],
+                [
+                    "Federated learning"
+                ]
+            ]
+        },
+        {
+            "property_group": "Application Domain",
+            "synonyms": [
+                [
+                    "Cybersecurity",
+                    "Intrusion Detection",
+                    "Malware Detection",
+                    "Fraud Detection",
+                    "Threat Detection",
+                    "Botnet Detection",
+                    "Log anomaly detection",
+                    "Malicious activities",
+                    "Attacks",
+                    "Information Security",
+                    "Network Security",
+                    "Data Protection",
+                    "Phishing Detection",
+                    "Ransomware Protection",
+                    "Vulnerability Assessment",
+                    "Penetration Testing",
+                    "Endpoint Security",
+                    "Zero Trust Security"
+                ],
+                [
+                    "Cyber-physical systems",
+                    "Cyberphysical systems",
+                    "Power grids",
+                    "Wind energy",
+                    "Eolic",
+                    "Solar",
+                    "Smart grid",
+                    "Industrial Control Systems",
+                    "SCADA",
+                    "Smart infrastructure",
+                    "Renewable energy",
+                    "Energy management systems",
+                    "Microgrid",
+                    "Smart metering",
+                    "Grid automation"
+                ],
+                [
+                    "IoT",
+                    "Internet of Things",
+                    "Smart home",
+                    "Smart cities",
+                    "Smart city",
+                    "Connected devices",
+                    "Wearable devices",
+                    "Industrial IoT",
+                    "Smart devices",
+                    "Edge devices",
+                    "Embedded systems",
+                    "Home automation",
+                    "Smart appliances",
+                    "M2M",
+                    "Machine-to-Machine"
+                ],
+                [
+                    "Manufacturing",
+                    "Industrial IoT",
+                    "IIoT",
+                    "Defect prediction",
+                    "Defect detection",
+                    "Fault detection",
+                    "Industrial sector",
+                    "Factory",
+                    "Fabrication",
+                    "Assembly line",
+                    "Industrial manufacturing",
+                    "Mass production",
+                    "Process industry",
+                    "Automation industry",
+                    "Industrial engineering",
+                    "Smart manufacturing"
+                ],
+                [
+                    "Weather",
+                    "Meteorological",
+                    "Temperature",
+                    "Pollution",
+                    "Rainfall",
+                    "Climate",
+                    "Humidity",
+                    "Atmospheric conditions",
+                    "Air quality",
+                    "Storms",
+                    "Precipitation",
+                    "Climate change",
+                    "Weather forecasting",
+                    "Wind speed",
+                    "Heatwave",
+                    "Drought",
+                    "Natural disasters"
+                ],
+                [
+                    "Blockchain",
+                    "Cryptocurrency",
+                    "Distributed ledger",
+                    "Smart contracts",
+                    "Decentralized finance",
+                    "Bitcoin",
+                    "Ethereum",
+                    "Tokenization",
+                    "Crypto assets",
+                    "NFTs",
+                    "Digital ledger",
+                    "Blockchain technology",
+                    "Public ledger",
+                    "Decentralized apps",
+                    "DApps",
+                    "Altcoins"
+                ],
+                [
+                    "Healthcare",
+                    "health care",
+                    "Medical",
+                    "EEG",
+                    "ECG",
+                    "X-Ray",
+                    "disease",
+                    "EHR",
+                    "Electronic health records",
+                    "Physionet",
+                    "Disease",
+                    "Clinical",
+                    "Telemedicine",
+                    "Hospital",
+                    "Medical devices",
+                    "Diagnostics",
+                    "Patient care",
+                    "Health informatics",
+                    "Public health",
+                    "Medical imaging",
+                    "Biomedical",
+                    "Epidemiology"
+                ],
+                [
+                    "Renewable Energy",
+                    "Solar panels",
+                    "PV modules",
+                    "Photovoltaic panels",
+                    "Solar arrays",
+                    "PV plants",
+                    "Photovoltaic plants",
+                    "Solar power plants",
+                    "Solar farms",
+                    "PV farms",
+                    "Solar energy facilities",
+                    "PV generation stations",
+                    "Solar generation systems",
+                    "Wind energy",
+                    "Wind power",
+                    "Wind farms",
+                    "Wind turbines",
+                    "Wind-based energy",
+                    "Smart metering",
+                    "Grid automation",
+                    "Power grids",
+                    "Smart grid",
+                    "Hydropower energy",
+                    "Geothermal energy",
+                    "Biomass energy"
+                ]
+            ],
+            "is_mandatory": true
+        },
+        {
+            "property_group": "Data modality",
+            "synonyms": [
+                [
+                    "Offline data",
+                    "Offline dataset",
+                    "batch processing",
+                    "static data",
+                    "historical data"
+                ],
+                [
+                    "Streaming data",
+                    "Online data",
+                    "Online dataset",
+                    "Streaming dataset",
+                    "data streams",
+                    "Real-time data",
+                    "Real-time dataset",
+                    "real-time processing",
+                    "online algorithm",
+                    "Low Latency",
+                    "Incremental Learning",
+                    "Incremental processing",
+                    "delta processing",
+                    "Continual data",
+                    "Adaptive Thresholding",
+                    "Continual dataset",
+                    "lifelong data",
+                    "lifelong dataset"
+                ]
+            ]
+        },
+        {
+            "property_group": "Data type",
+            "synonyms": [
+                [
+                    "Time series",
+                    "time-series",
+                    "temporal"
+                ],
+                [
+                    "Text",
+                    "text data",
+                    "text anomaly detection",
+                    "NLP",
+                    "Natural language",
+                    "language anomaly detection"
+                ],
+                [
+                    "Spatio-temporal",
+                    "spatiotemporal"
+                ],
+                [
+                    "Image",
+                    "images",
+                    "imaging"
+                ],
+                [
+                    "Graph",
+                    "graph-based"
+                ],
+                [
+                    "Multimodal",
+                    "multi-modal"
+                ],
+                [
+                    "Video",
+                    "video-based"
+                ]
+            ]
+        },
+        {
+            "property_group": "Data source",
+            "synonyms": [
+                [
+                    "Synthetic data",
+                    "Synthetic dataset",
+                    "Synthetic data set",
+                    "generated data",
+                    "artificial data",
+                    "artificial dataset",
+                    "artificial data set",
+                    "generated dataset",
+                    "generated data set"
+                ],
+                [
+                    "Real-world data",
+                    "Real-world dataset",
+                    "Authentic dataset",
+                    "Practical dataset",
+                    "Actual dataset",
+                    "Empirical dataset",
+                    "Genuine dataset",
+                    "Observed dataset",
+                    "Raw dataset",
+                    "Field dataset",
+                    "Live dataset",
+                    "Experimental dataset",
+                    "Operational dataset",
+                    "Production dataset",
+                    "Business dataset",
+                    "Sensor dataset",
+                    "Customer dataset",
+                    "Financial dataset",
+                    "Medical dataset"
+                ],
+                [
+                    "Dataset",
+                    "data set"
+                ]
+            ]
+        },
+        {
+            "property_group": "AI models - DL",
+            "synonyms": [
+                [
+                    "Auto-encoder",
+                    "autoencoder",
+                    "AE",
+                    "Deep Autoencoder",
+                    "Stacked Autoencoder",
+                    "Variational Autoencoder",
+                    "VAE",
+                    "Denoising Autoencoder"
+                ],
+                [
+                    "Attention-based",
+                    "Attention head",
+                    "Transformer model",
+                    "Transformer architecture",
+                    "Transformer layer",
+                    "Attention neural network",
+                    "attention layer",
+                    "Self-attention",
+                    "Multi-head Attention",
+                    "Transformer-based"
+                ],
+                [
+                    "RNN/LSTM",
+                    "RNN",
+                    "LSTM",
+                    "Long-Short Term Memory",
+                    "Long-Short-Term-Memory",
+                    "Long Short-Term Memory",
+                    "LSTM-based",
+                    "LSTM-RNN",
+                    "Recurrent Neural Network",
+                    "GRU",
+                    "Gated Recurrent Unit",
+                    "Bidirectional LSTM",
+                    "BiLSTM",
+                    "Vanilla RNN",
+                    "Stacked LSTM",
+                    "Attention LSTM",
+                    "LSTM Cell"
+                ],
+                [
+                    "CNN",
+                    "CNNs",
+                    "Convolutional Neural Networks",
+                    "convolutional layer",
+                    "CNN-based",
+                    "ConvNet",
+                    "Deep Convolutional Network",
+                    "2D CNN",
+                    "3D CNN",
+                    "Convolutional Feature Extractor",
+                    "ResNet",
+                    "VGGNet",
+                    "AlexNet"
+                ],
+                [
+                    "GAN",
+                    "Generative Adversarial Networks",
+                    "GANs",
+                    "Generative adversarial learning",
+                    "Generative adversarial",
+                    "GAN-based",
+                    "Adversarial Training",
+                    "Deep Convolutional GAN",
+                    "DCGAN",
+                    "CycleGAN",
+                    "StyleGAN",
+                    "Wasserstein GAN",
+                    "WGAN",
+                    "Conditional GAN",
+                    "cGAN",
+                    "Pix2Pix GAN"
+                ],
+                [
+                    "Graph Neural Networks",
+                    "GNN",
+                    "Graph-based Neural Network",
+                    "Graph Convolutional Network",
+                    "GCN",
+                    "Graph Attention Network",
+                    "GAT",
+                    "Message Passing Neural Network",
+                    "MPNN"
+                ],
+                [
+                    "Diffusion Models",
+                    "Denoising Diffusion Probabilistic Models",
+                    "DDPM",
+                    "Latent Diffusion Model",
+                    "LDM",
+                    "Stable Diffusion",
+                    "Score-Based Generative Models",
+                    "SDE-based Models"
+                ]
+            ]
+        },
+        {
+            "property_group": "AI models - Shallow",
+            "synonyms": [
+                [
+                    "Decision Trees",
+                    "Random Forest",
+                    "Isolation Forest",
+                    "XGBoost",
+                    "LightGBM",
+                    "Gradient boosting",
+                    "Extra trees",
+                    "CART",
+                    "Classification and Regression Trees",
+                    "Ensemble Trees",
+                    "AdaBoost",
+                    "CatBoost",
+                    "GBDT",
+                    "GBM"
+                ],
+                [
+                    "Bayesian Learning",
+                    "Bayes net",
+                    "Graphical Model",
+                    "PGM",
+                    "Bayesian Networks",
+                    "Viterbi",
+                    "Sum-Product Networks",
+                    "Probabilistic circuits",
+                    "Probabilistic Inference",
+                    "Na\u00efve Bayes",
+                    "Bayesian Classifier",
+                    "Bayesian Decision Theory"
+                ],
+                [
+                    "Statistical Based",
+                    "KS Test",
+                    "t-Test",
+                    "COPOD",
+                    "Z-Score",
+                    "Gaussian Mixture Models",
+                    "Histogram-based",
+                    "EM",
+                    "Expectation Maximization",
+                    "Hidden Markov Models",
+                    "HMM",
+                    "ABOD",
+                    "GMM"
+                ],
+                [
+                    "SVM",
+                    "SVMs",
+                    "Support Vector Machines",
+                    "OC-SVM",
+                    "OCSVM",
+                    "Kernel SVM",
+                    "Linear SVM",
+                    "Non-linear SVM"
+                ],
+                [
+                    "Instance-Based Learning",
+                    "k-Nearest-Neighbors",
+                    "k-NN",
+                    "kNN",
+                    "LOF",
+                    "Local Outlier Factor",
+                    "Distance-based Learning"
+                ],
+                [
+                    "Rule-Based Learning",
+                    "Rule-Based Models",
+                    "Fuzzy Logic Systems",
+                    "Expert Systems",
+                    "Decision Rules",
+                    "IF-THEN Rules"
+                ],
+                [
+                    "Clustering Algorithms",
+                    "K-Means",
+                    "KMeans",
+                    "Hierarchical Clustering",
+                    "DBSCAN",
+                    "Agglomerative Clustering",
+                    "Mean Shift Clustering",
+                    "Gaussian Mixture Model Clustering",
+                    "Spectral Clustering",
+                    "Density-based Clustering"
+                ],
+                [
+                    "Linear Models",
+                    "Least Squares",
+                    "Ordinary Least Squares",
+                    "Generalized Linear Models",
+                    "GLM",
+                    "Regularized Regression",
+                    "Logistic Regression",
+                    "Binary Logistic Regression",
+                    "Multinomial Logistic Regression",
+                    "Ordinal Logistic Regression",
+                    "Linear Regression",
+                    "Polynomial Regression",
+                    "Ridge Regression",
+                    "Lasso Regression",
+                    "Elastic Net Regression"
+                ],
+                [
+                    "Genetic Algorithms",
+                    "Evolutionary Computation",
+                    "Evolutionary Algorithms",
+                    "Optimization Algorithms",
+                    "Metaheuristic Algorithms"
+                ]
+            ]
+        },
+        {
+            "property_group": "Concerns",
+            "synonyms": [
+                [
+                    "Data noise",
+                    "Label noise",
+                    "noisy data",
+                    "corrupted",
+                    "false measurements"
+                ],
+                [
+                    "Scalability",
+                    "Big Data",
+                    "Parallel",
+                    "Distributed implementation",
+                    "Apache Spark",
+                    "Spark",
+                    "Hadoop",
+                    "Horovod",
+                    "Ray"
+                ],
+                [
+                    "Privacy",
+                    "privacy-preserving",
+                    "differential privacy",
+                    "DP-SGD",
+                    "Federated"
+                ],
+                [
+                    "Safety",
+                    "Trustworthy",
+                    "Adversarial attacks"
+                ],
+                [
+                    "Interpretability",
+                    "Explainability",
+                    "interpretable",
+                    "explainable",
+                    "XAI"
+                ],
+                [
+                    "Cloud computing",
+                    "AWS",
+                    "Azure",
+                    "GCP",
+                    "Google Cloud",
+                    "Azure Web Services"
+                ],
+                [
+                    "Edge computing",
+                    "on-device computing",
+                    "on-device processing",
+                    "on-device calculation",
+                    "fog computing",
+                    "mobile device",
+                    "smartphone",
+                    "dew computing"
+                ]
+            ]
+        },
+        {
+            "property_group": "Paper type",
+            "synonyms": [
+                [
+                    "Review paper",
+                    "Review article",
+                    "Scoping review",
+                    "Systematic review",
+                    "Survey paper",
+                    "Survey article",
+                    "Scoping Survey",
+                    "Systematic Survey"
+                ]
+            ]
+        }
+    ],
+    "properties_mandatory": [],
+    "properties_excluded": [
+        "Review paper",
+        "Review article",
+        "Scoping review",
+        "Systematic review",
+        "Survey paper",
+        "Survey article",
+        "Scoping Survey",
+        "Systematic Survey"
+    ],
+    "relevant": "2",
+    "libraries": {
+        "ieee": true,
+        "pubmed": true,
+        "springer": true,
+        "elsevier": true,
+        "mdpi": true,
+        "acm": true
+    },
+    "plotting": {
+        "add_lin_coef": false,
+        "plot_type": "pdf",
+        "capitalize": false,
+        "property_group_combinations": []
+    },
+    "project_id": "-1",
+    "project_name": "Roberto_AnomalyDetection_20250717",
+    "apply_stemming": true,
+    "apply_phrase_permutations": false,
+    "remove_stopwords": false,
+    "year_end": "2025",
+    "year_start": "2016",
+    "force_crawl": false,
+    "email_results": "[email redacted],[email redacted]"
+}

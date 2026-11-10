@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Verify the deposited public snapshot without third-party dependencies."""
 
+import argparse
 import hashlib
 import json
 import re
@@ -11,7 +12,6 @@ from zipfile import ZipFile
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SNAPSHOT = ROOT / "data" / "2025-04-30"
 NS = {"s": "http://schemas.openxmlformats.org/spreadsheetml/2006/main"}
 EMAIL = re.compile(
     r"[A-Za-z0-9.!#$%&'*+/=?^_`{|}~-]+@"
@@ -60,7 +60,7 @@ def workbook_issues(path):
     return issues
 
 
-def main():
+def verify_snapshot(SNAPSHOT, check_contacts=True):
     manifest = json.loads((SNAPSHOT / "manifest.json").read_text())
     expected = {entry["path"]: entry for entry in manifest["files"]}
     issues = []
@@ -88,9 +88,9 @@ def main():
         digest = hasher.hexdigest()
         if digest != entry["published_sha256"] or path.stat().st_size != entry["published_bytes"]:
             issues.append(f"Checksum or size mismatch: {name}")
-        if path.suffix == ".xlsx":
+        if check_contacts and path.suffix == ".xlsx":
             issues.extend(workbook_issues(path))
-        elif path.suffix in {".json", ".txt", ".bib"} and EMAIL.search(path.read_text()):
+        elif check_contacts and path.suffix in {".json", ".txt", ".bib"} and EMAIL.search(path.read_text()):
             issues.append(f"Email address remains in {name}")
     if (SNAPSHOT / "emails.txt").exists():
         issues.append("Excluded contact list is present")
@@ -99,10 +99,35 @@ def main():
         for issue in issues:
             print(f"- {issue}", file=sys.stderr)
         return 1
-    print(f"Verified {len(expected)} archive-derived files in snapshot {manifest['snapshot_id']}.")
-    print("Checksums, file sizes, inventory, and contact-email removal passed.")
+    print(f"Verified {len(expected)} archive-derived files in {manifest.get('snapshot_id', SNAPSHOT.name)}.")
+    print("Checksums, file sizes, and inventory passed.")
+    if check_contacts:
+        print("Contact-email removal passed.")
     print("This verifies artifact integrity, not scientific validity or reproducibility of the original analysis.")
     return 0
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--snapshot", type=Path, help="Verify one snapshot directory")
+    args = parser.parse_args()
+    folders = [args.snapshot] if args.snapshot else sorted(
+        path.parent for path in (ROOT / "data").glob("*/manifest.json")
+    )
+    if not args.snapshot and (ROOT / "toolkit" / "manifest.json").exists():
+        folders.append(ROOT / "toolkit")
+    if not folders:
+        parser.error("No snapshots found")
+    result = 0
+    for folder in folders:
+        if folder.name == "toolkit":
+            if (folder / "data").exists() or list(folder.rglob(".env")):
+                print("Excluded toolkit data or environment file present", file=sys.stderr)
+                result = 1
+            result |= verify_snapshot(folder, check_contacts=False)
+        else:
+            result |= verify_snapshot(folder)
+    return result
 
 
 if __name__ == "__main__":

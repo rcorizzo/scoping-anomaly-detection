@@ -4,3 +4,8 @@ __pycache__/
 .private/
 emails.txt
 results_AnomalyDetection_20250430.zip
+*.zip
+.env
+.env.*
+.venv/
+toolkit/data/

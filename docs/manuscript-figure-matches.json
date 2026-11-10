@@ -1,0 +1,385 @@
+{
+  "checked_on": "2026-11-09",
+  "manuscript_commit": "a3b65391c7b589401514a0a2d97e15c8205f271e",
+  "manuscript_directory": "figures_2026_3",
+  "results_snapshot": "2026-03-09",
+  "matched_pdf_count": 75,
+  "manuscript_pdf_count": 75,
+  "files": [
+    {
+      "path": "aggr_keyword_source_relevant.pdf",
+      "manuscript_sha256": "4122fc335267e9d27266e96b319edb26e2961a79ce21f117c805985da529ef22",
+      "results_archive_sha256": "4122fc335267e9d27266e96b319edb26e2961a79ce21f117c805985da529ef22"
+    },
+    {
+      "path": "aggr_keyword_year_relevant.pdf",
+      "manuscript_sha256": "56970ff64fb0150cf8c84836ade3345c0c48397bca9a06900c69dff044698c3c",
+      "results_archive_sha256": "56970ff64fb0150cf8c84836ade3345c0c48397bca9a06900c69dff044698c3c"
+    },
+    {
+      "path": "aggr_prisma.pdf",
+      "manuscript_sha256": "ef914218ee6276053c1591d04e8e1a586785c78a42a76688dfe2389ecb79a7d0",
+      "results_archive_sha256": "ef914218ee6276053c1591d04e8e1a586785c78a42a76688dfe2389ecb79a7d0"
+    },
+    {
+      "path": "aggr_prisma_scoping.pdf",
+      "manuscript_sha256": "f161b558f8678573452da14e3a2019874ffaf33e8a75b799534d195e3bf0e391",
+      "results_archive_sha256": "f161b558f8678573452da14e3a2019874ffaf33e8a75b799534d195e3bf0e391"
+    },
+    {
+      "path": "aggr_property_group_percentage_ai-models---dl.pdf",
+      "manuscript_sha256": "11531e34058927baf8616ccbf6e331013d86999ff038863639aa112ffa0e7a5c",
+      "results_archive_sha256": "11531e34058927baf8616ccbf6e331013d86999ff038863639aa112ffa0e7a5c"
+    },
+    {
+      "path": "aggr_property_group_percentage_ai-models---shallow.pdf",
+      "manuscript_sha256": "bfd044e3ae1438f6e054c17d2e6e9ab539a3600451310ded5f9ca70a4074d484",
+      "results_archive_sha256": "bfd044e3ae1438f6e054c17d2e6e9ab539a3600451310ded5f9ca70a4074d484"
+    },
+    {
+      "path": "aggr_property_group_percentage_application-domain.pdf",
+      "manuscript_sha256": "34d8eef5ad08f7eb164216ab83c8b17d5da826e55bd068bac86e801e1bae6349",
+      "results_archive_sha256": "34d8eef5ad08f7eb164216ab83c8b17d5da826e55bd068bac86e801e1bae6349"
+    },
+    {
+      "path": "aggr_property_group_percentage_concerns.pdf",
+      "manuscript_sha256": "f5ca2af3729236ecca2e9ac59cd4bb3c3c7c6e37cce34d880abc5375730a686e",
+      "results_archive_sha256": "f5ca2af3729236ecca2e9ac59cd4bb3c3c7c6e37cce34d880abc5375730a686e"
+    },
+    {
+      "path": "aggr_property_group_percentage_data-modality.pdf",
+      "manuscript_sha256": "e43a78e43c922c47914deb8f42f940379bf0af8ea759287c9585bad37843df69",
+      "results_archive_sha256": "e43a78e43c922c47914deb8f42f940379bf0af8ea759287c9585bad37843df69"
+    },
+    {
+      "path": "aggr_property_group_percentage_data-source.pdf",
+      "manuscript_sha256": "67368d8574ae104c774872507a548bfdb2c22845fa5d95b5d427acc89021212e",
+      "results_archive_sha256": "67368d8574ae104c774872507a548bfdb2c22845fa5d95b5d427acc89021212e"
+    },
+    {
+      "path": "aggr_property_group_percentage_data-type.pdf",
+      "manuscript_sha256": "174fdfd366594d5936aeebd8fa772c8e30bdcacdddc19d1f89e93ff24ea6e782",
+      "results_archive_sha256": "174fdfd366594d5936aeebd8fa772c8e30bdcacdddc19d1f89e93ff24ea6e782"
+    },
+    {
+      "path": "aggr_property_group_percentage_learning-setting.pdf",
+      "manuscript_sha256": "56240a284c5b87bd39e95bac6816732ac363810f193f37edd3e2430644b7f19e",
+      "results_archive_sha256": "56240a284c5b87bd39e95bac6816732ac363810f193f37edd3e2430644b7f19e"
+    },
+    {
+      "path": "aggr_property_group_percentage_main-topics.pdf",
+      "manuscript_sha256": "a3b4237ef658e281ac19501e9d1429f7b66126130592c4b962bad0795a7bc465",
+      "results_archive_sha256": "a3b4237ef658e281ac19501e9d1429f7b66126130592c4b962bad0795a7bc465"
+    },
+    {
+      "path": "aggr_property_group_percentage_supervision-type.pdf",
+      "manuscript_sha256": "04272fa68eefc520c528a23041251d73a5c76599b1f75fd8c6c8875b956e9483",
+      "results_archive_sha256": "04272fa68eefc520c528a23041251d73a5c76599b1f75fd8c6c8875b956e9483"
+    },
+    {
+      "path": "aggr_property_group_year.pdf",
+      "manuscript_sha256": "6df663d7af222f8d94e6552d77420c00d1f4846e2f035c412f61241710c209f3",
+      "results_archive_sha256": "6df663d7af222f8d94e6552d77420c00d1f4846e2f035c412f61241710c209f3"
+    },
+    {
+      "path": "aggr_property_year_ai-models---dl.pdf",
+      "manuscript_sha256": "c457d451457660ec60c3cf1d06a3d693c8c85c8aaa6ffe3eed800d19dba9eb8a",
+      "results_archive_sha256": "c457d451457660ec60c3cf1d06a3d693c8c85c8aaa6ffe3eed800d19dba9eb8a"
+    },
+    {
+      "path": "aggr_property_year_ai-models---shallow.pdf",
+      "manuscript_sha256": "8d6002185f8492e1ae346f9e95daae1d61589b67117f324e79f011329bc0b64f",
+      "results_archive_sha256": "8d6002185f8492e1ae346f9e95daae1d61589b67117f324e79f011329bc0b64f"
+    },
+    {
+      "path": "aggr_property_year_application-domain.pdf",
+      "manuscript_sha256": "afd19ab4fbe34b5d94e16d3abc9c13b62c920dc445a13f71fbe7afd57d1dd482",
+      "results_archive_sha256": "afd19ab4fbe34b5d94e16d3abc9c13b62c920dc445a13f71fbe7afd57d1dd482"
+    },
+    {
+      "path": "aggr_property_year_concerns.pdf",
+      "manuscript_sha256": "dd79672ed5893dde83cc042b03ab0b9e9eddb5455659b7cdb0abc36e04469da7",
+      "results_archive_sha256": "dd79672ed5893dde83cc042b03ab0b9e9eddb5455659b7cdb0abc36e04469da7"
+    },
+    {
+      "path": "aggr_property_year_data-modality.pdf",
+      "manuscript_sha256": "ec591a50c03e6e44e74b538354dbbe0532a8c4a256d6f1ca481963047d10bb14",
+      "results_archive_sha256": "ec591a50c03e6e44e74b538354dbbe0532a8c4a256d6f1ca481963047d10bb14"
+    },
+    {
+      "path": "aggr_property_year_data-source.pdf",
+      "manuscript_sha256": "411f9e77d939a854982406ba9099e6a59fc165675622e16b6bf837610efeac33",
+      "results_archive_sha256": "411f9e77d939a854982406ba9099e6a59fc165675622e16b6bf837610efeac33"
+    },
+    {
+      "path": "aggr_property_year_data-type.pdf",
+      "manuscript_sha256": "91ac0c373fe97ddbb114faf5a96fe412d233b25fe60b6696dcb2395c5b8bb854",
+      "results_archive_sha256": "91ac0c373fe97ddbb114faf5a96fe412d233b25fe60b6696dcb2395c5b8bb854"
+    },
+    {
+      "path": "aggr_property_year_learning-setting.pdf",
+      "manuscript_sha256": "16c3659670193863a84a8bc3c62acc0e812455dc7604603a80cbd3cdd895162d",
+      "results_archive_sha256": "16c3659670193863a84a8bc3c62acc0e812455dc7604603a80cbd3cdd895162d"
+    },
+    {
+      "path": "aggr_property_year_main-topics.pdf",
+      "manuscript_sha256": "487ccf3ffb3c88e4b0dbe458826ca30bc9ba146f037353d923031910ff366d85",
+      "results_archive_sha256": "487ccf3ffb3c88e4b0dbe458826ca30bc9ba146f037353d923031910ff366d85"
+    },
+    {
+      "path": "aggr_property_year_supervision-type.pdf",
+      "manuscript_sha256": "42ea214c518007be932a736d63242372dab7cf5d57fa9af77d49a20c5660aba5",
+      "results_archive_sha256": "42ea214c518007be932a736d63242372dab7cf5d57fa9af77d49a20c5660aba5"
+    },
+    {
+      "path": "aggr_source.pdf",
+      "manuscript_sha256": "f39bbabe690abe782928a796756460ac2e8dd364f0075cd4f6c81d253a84bbcd",
+      "results_archive_sha256": "f39bbabe690abe782928a796756460ac2e8dd364f0075cd4f6c81d253a84bbcd"
+    },
+    {
+      "path": "aggr_source_year_relevant.pdf",
+      "manuscript_sha256": "85e676769929a6cf703dbcb98de77d6ca2eec0c3ac4fa0ec3e7791010549f3bb",
+      "results_archive_sha256": "85e676769929a6cf703dbcb98de77d6ca2eec0c3ac4fa0ec3e7791010549f3bb"
+    },
+    {
+      "path": "aggr_year.pdf",
+      "manuscript_sha256": "9c8cbbafb5596b7ca96aab4e72af067c6e2b0d1fa5fcc33ae8affe591679b4ea",
+      "results_archive_sha256": "9c8cbbafb5596b7ca96aab4e72af067c6e2b0d1fa5fcc33ae8affe591679b4ea"
+    },
+    {
+      "path": "filtered_graph_all_countries.pdf",
+      "manuscript_sha256": "fb7013dd78901eb70c8c367e01bf7db5a1edcc1af0b24b7061e8d0f5533bb264",
+      "results_archive_sha256": "fb7013dd78901eb70c8c367e01bf7db5a1edcc1af0b24b7061e8d0f5533bb264"
+    },
+    {
+      "path": "filtered_graph_all_properties.pdf",
+      "manuscript_sha256": "3d60372f115ada11a74ee9ce65a43174167b20937e6ef6f9a27bc5ba7c06b036",
+      "results_archive_sha256": "3d60372f115ada11a74ee9ce65a43174167b20937e6ef6f9a27bc5ba7c06b036"
+    },
+    {
+      "path": "heatmap_ai-models-dl_ai-models-shallow.pdf",
+      "manuscript_sha256": "fd131ffb8e8b1f74018eab33a67abca4425b7888f9559d1b6bff404a77277d4b",
+      "results_archive_sha256": "fd131ffb8e8b1f74018eab33a67abca4425b7888f9559d1b6bff404a77277d4b"
+    },
+    {
+      "path": "heatmap_ai-models-dl_application-domain.pdf",
+      "manuscript_sha256": "cb90728120cbbc74374fa96dd9102fe74b1e9877b64d8117cd948b01e40447b5",
+      "results_archive_sha256": "cb90728120cbbc74374fa96dd9102fe74b1e9877b64d8117cd948b01e40447b5"
+    },
+    {
+      "path": "heatmap_ai-models-dl_concerns.pdf",
+      "manuscript_sha256": "d20775624b3b9c20fbe2dc09065260826a3279614151e2e3c5298b4eb2aa4682",
+      "results_archive_sha256": "d20775624b3b9c20fbe2dc09065260826a3279614151e2e3c5298b4eb2aa4682"
+    },
+    {
+      "path": "heatmap_ai-models-dl_data-modality.pdf",
+      "manuscript_sha256": "1673871d403c2e64c987b7909266c800522acb654798868bb6636ee2a6f4dbec",
+      "results_archive_sha256": "1673871d403c2e64c987b7909266c800522acb654798868bb6636ee2a6f4dbec"
+    },
+    {
+      "path": "heatmap_ai-models-dl_data-source.pdf",
+      "manuscript_sha256": "267d63e882c27251cdad13724ec3a7b344d310ae3fd94a587482e7cc81bc42c7",
+      "results_archive_sha256": "267d63e882c27251cdad13724ec3a7b344d310ae3fd94a587482e7cc81bc42c7"
+    },
+    {
+      "path": "heatmap_ai-models-dl_data-type.pdf",
+      "manuscript_sha256": "c0c4368da628ee515ec998e04a043447c14615eb75a39a7d53b50c0ea0db24e4",
+      "results_archive_sha256": "c0c4368da628ee515ec998e04a043447c14615eb75a39a7d53b50c0ea0db24e4"
+    },
+    {
+      "path": "heatmap_ai-models-dl_learning-setting.pdf",
+      "manuscript_sha256": "7b5657259a59a5e013c0b0b879ed3f0a5dfdb3f8793f6001af994f501efd1fc6",
+      "results_archive_sha256": "7b5657259a59a5e013c0b0b879ed3f0a5dfdb3f8793f6001af994f501efd1fc6"
+    },
+    {
+      "path": "heatmap_ai-models-dl_main-topics.pdf",
+      "manuscript_sha256": "ff95ae8a60fc958a666efb341129f0d4d2c43cf8fad1024121a256c9e5ed752f",
+      "results_archive_sha256": "ff95ae8a60fc958a666efb341129f0d4d2c43cf8fad1024121a256c9e5ed752f"
+    },
+    {
+      "path": "heatmap_ai-models-dl_supervision-type.pdf",
+      "manuscript_sha256": "de31a25cc774482355e8db5f9bb5504bba09146e7e69df3c517f50235bc49592",
+      "results_archive_sha256": "de31a25cc774482355e8db5f9bb5504bba09146e7e69df3c517f50235bc49592"
+    },
+    {
+      "path": "heatmap_ai-models-shallow_application-domain.pdf",
+      "manuscript_sha256": "779aa7b6eda937d2dc7280f92f614b19ff29f9136066108717dd9b875034e4f1",
+      "results_archive_sha256": "779aa7b6eda937d2dc7280f92f614b19ff29f9136066108717dd9b875034e4f1"
+    },
+    {
+      "path": "heatmap_ai-models-shallow_concerns.pdf",
+      "manuscript_sha256": "bb07aa6b2b1886a1e2591307ac6de3d9a544243b7e0d40985eaaf92520c1a445",
+      "results_archive_sha256": "bb07aa6b2b1886a1e2591307ac6de3d9a544243b7e0d40985eaaf92520c1a445"
+    },
+    {
+      "path": "heatmap_ai-models-shallow_data-modality.pdf",
+      "manuscript_sha256": "10bed3bc727db58feea16cc829b8e9e7562cdc449c71022c5c52a7b59f6a8979",
+      "results_archive_sha256": "10bed3bc727db58feea16cc829b8e9e7562cdc449c71022c5c52a7b59f6a8979"
+    },
+    {
+      "path": "heatmap_ai-models-shallow_data-source.pdf",
+      "manuscript_sha256": "94411fe82fcfd57ef15989c5ca0f3ba187d6abd1872567b712ea857cc29d4c6b",
+      "results_archive_sha256": "94411fe82fcfd57ef15989c5ca0f3ba187d6abd1872567b712ea857cc29d4c6b"
+    },
+    {
+      "path": "heatmap_ai-models-shallow_data-type.pdf",
+      "manuscript_sha256": "46e7da1cdd0037eaa31ab6e13582c1ba703d04cbf610ec50128f4a1350af683f",
+      "results_archive_sha256": "46e7da1cdd0037eaa31ab6e13582c1ba703d04cbf610ec50128f4a1350af683f"
+    },
+    {
+      "path": "heatmap_ai-models-shallow_learning-setting.pdf",
+      "manuscript_sha256": "e5e5dc4a7105237c4512d359bdd027b5787143f29d2a71391c8ca43ba99f91ef",
+      "results_archive_sha256": "e5e5dc4a7105237c4512d359bdd027b5787143f29d2a71391c8ca43ba99f91ef"
+    },
+    {
+      "path": "heatmap_ai-models-shallow_main-topics.pdf",
+      "manuscript_sha256": "332bfdd4b2bb6620776deb53b789f6d4d98e4e950f49d6940e8e26491c9ae2d9",
+      "results_archive_sha256": "332bfdd4b2bb6620776deb53b789f6d4d98e4e950f49d6940e8e26491c9ae2d9"
+    },
+    {
+      "path": "heatmap_ai-models-shallow_supervision-type.pdf",
+      "manuscript_sha256": "56a8cf776654cf20c0a1d3f3a2bfa5007a5da9b49f8ba3c7bc19577537a3e11b",
+      "results_archive_sha256": "56a8cf776654cf20c0a1d3f3a2bfa5007a5da9b49f8ba3c7bc19577537a3e11b"
+    },
+    {
+      "path": "heatmap_application-domain_concerns.pdf",
+      "manuscript_sha256": "52ba4bdb526a91d8710f156964b853fad5e7e928b5731c7de12f044e720a0fbd",
+      "results_archive_sha256": "52ba4bdb526a91d8710f156964b853fad5e7e928b5731c7de12f044e720a0fbd"
+    },
+    {
+      "path": "heatmap_application-domain_data-modality.pdf",
+      "manuscript_sha256": "86e92d29a58f947f2de112c12dd137baabc46410327066cf268e6fbb066c4fc8",
+      "results_archive_sha256": "86e92d29a58f947f2de112c12dd137baabc46410327066cf268e6fbb066c4fc8"
+    },
+    {
+      "path": "heatmap_application-domain_data-source.pdf",
+      "manuscript_sha256": "9c83fe50b3cca73af7f8651c986c90e692190be29ed8b195763ac9b0667f32c6",
+      "results_archive_sha256": "9c83fe50b3cca73af7f8651c986c90e692190be29ed8b195763ac9b0667f32c6"
+    },
+    {
+      "path": "heatmap_application-domain_data-type.pdf",
+      "manuscript_sha256": "410a6aa6dc8414b206bd3682e4d37e69ecdb291a0eecfc670b53dd733da3f750",
+      "results_archive_sha256": "410a6aa6dc8414b206bd3682e4d37e69ecdb291a0eecfc670b53dd733da3f750"
+    },
+    {
+      "path": "heatmap_application-domain_learning-setting.pdf",
+      "manuscript_sha256": "0aa3d285dee85182fbe21a485ef46ec29f74d97061676c4e59635c21493c415b",
+      "results_archive_sha256": "0aa3d285dee85182fbe21a485ef46ec29f74d97061676c4e59635c21493c415b"
+    },
+    {
+      "path": "heatmap_application-domain_main-topics.pdf",
+      "manuscript_sha256": "c0eadc6e4cf0eee35d6f9084b0957eb48c7bb1c33808707b1dcd8d528268d28d",
+      "results_archive_sha256": "c0eadc6e4cf0eee35d6f9084b0957eb48c7bb1c33808707b1dcd8d528268d28d"
+    },
+    {
+      "path": "heatmap_application-domain_supervision-type.pdf",
+      "manuscript_sha256": "20391071a9ee27145b845d9d49cef0f625c5ff089963a33b374a82ba6992cf04",
+      "results_archive_sha256": "20391071a9ee27145b845d9d49cef0f625c5ff089963a33b374a82ba6992cf04"
+    },
+    {
+      "path": "heatmap_concerns_data-modality.pdf",
+      "manuscript_sha256": "0efba01344811792bb884b4a446bbac54212d8aef433628878970b3fe26c5ab9",
+      "results_archive_sha256": "0efba01344811792bb884b4a446bbac54212d8aef433628878970b3fe26c5ab9"
+    },
+    {
+      "path": "heatmap_concerns_data-source.pdf",
+      "manuscript_sha256": "34580b2c0d6f04999afb299be1bed93737f288dc657b2d929ed700188e662999",
+      "results_archive_sha256": "34580b2c0d6f04999afb299be1bed93737f288dc657b2d929ed700188e662999"
+    },
+    {
+      "path": "heatmap_concerns_data-type.pdf",
+      "manuscript_sha256": "1e05bc674f8e444f5f8f53f583254f05fca4562750d8bcf06abc7545eda1bf33",
+      "results_archive_sha256": "1e05bc674f8e444f5f8f53f583254f05fca4562750d8bcf06abc7545eda1bf33"
+    },
+    {
+      "path": "heatmap_concerns_learning-setting.pdf",
+      "manuscript_sha256": "8c3b08f247018f0979fdfcea3f6ba3a466e99f1b0b030998d40157fff4f6cfaf",
+      "results_archive_sha256": "8c3b08f247018f0979fdfcea3f6ba3a466e99f1b0b030998d40157fff4f6cfaf"
+    },
+    {
+      "path": "heatmap_concerns_main-topics.pdf",
+      "manuscript_sha256": "beee381a81ba44f64bebc4a59b6d6d04db1b2fd0573563e8dfe73462d20b847b",
+      "results_archive_sha256": "beee381a81ba44f64bebc4a59b6d6d04db1b2fd0573563e8dfe73462d20b847b"
+    },
+    {
+      "path": "heatmap_concerns_supervision-type.pdf",
+      "manuscript_sha256": "505a3757fce6b86feef3c3ed28a9d7852dd27f1502acfa7ac15a6fe7e12e7528",
+      "results_archive_sha256": "505a3757fce6b86feef3c3ed28a9d7852dd27f1502acfa7ac15a6fe7e12e7528"
+    },
+    {
+      "path": "heatmap_data-modality_data-source.pdf",
+      "manuscript_sha256": "31531ee7205557ff6ee238be20fd531b0978b3d3d9e117368956d3b7528b7c90",
+      "results_archive_sha256": "31531ee7205557ff6ee238be20fd531b0978b3d3d9e117368956d3b7528b7c90"
+    },
+    {
+      "path": "heatmap_data-modality_data-type.pdf",
+      "manuscript_sha256": "22d44012ea1868e634beb3286bf5eb2fccda7c6cdf920adeb8c51b7616ac002b",
+      "results_archive_sha256": "22d44012ea1868e634beb3286bf5eb2fccda7c6cdf920adeb8c51b7616ac002b"
+    },
+    {
+      "path": "heatmap_data-modality_learning-setting.pdf",
+      "manuscript_sha256": "6a972933c5113b94308e1811c062660da2ce38951f04a7da62dd9a585d1f4fb9",
+      "results_archive_sha256": "6a972933c5113b94308e1811c062660da2ce38951f04a7da62dd9a585d1f4fb9"
+    },
+    {
+      "path": "heatmap_data-modality_main-topics.pdf",
+      "manuscript_sha256": "402d8a9633622ad6cab7a9615e0e87e4697523931f2e212bce6d4ce3dc439d5c",
+      "results_archive_sha256": "402d8a9633622ad6cab7a9615e0e87e4697523931f2e212bce6d4ce3dc439d5c"
+    },
+    {
+      "path": "heatmap_data-modality_supervision-type.pdf",
+      "manuscript_sha256": "93ca785b47d1caa66d60f0a9558020897e0c2130bc4638f16425b2ebab051500",
+      "results_archive_sha256": "93ca785b47d1caa66d60f0a9558020897e0c2130bc4638f16425b2ebab051500"
+    },
+    {
+      "path": "heatmap_data-source_data-type.pdf",
+      "manuscript_sha256": "8bac292f0fb0ae0e967d9c9223ab1a06c197889c302c37fa111b5d636ddf4069",
+      "results_archive_sha256": "8bac292f0fb0ae0e967d9c9223ab1a06c197889c302c37fa111b5d636ddf4069"
+    },
+    {
+      "path": "heatmap_data-source_learning-setting.pdf",
+      "manuscript_sha256": "9596756c839ee3eebd52d9b6fc5a104a571917617bdf09a4d4386e5ea39b6795",
+      "results_archive_sha256": "9596756c839ee3eebd52d9b6fc5a104a571917617bdf09a4d4386e5ea39b6795"
+    },
+    {
+      "path": "heatmap_data-source_main-topics.pdf",
+      "manuscript_sha256": "c7cf260efa8cf804fe9141d09caae29d079b7e502ce4515ae1677de86bf4b9e7",
+      "results_archive_sha256": "c7cf260efa8cf804fe9141d09caae29d079b7e502ce4515ae1677de86bf4b9e7"
+    },
+    {
+      "path": "heatmap_data-source_supervision-type.pdf",
+      "manuscript_sha256": "051b87da71fcbaf1b6634d6db1e490b56e8ac6640c952c99d93595c432819090",
+      "results_archive_sha256": "051b87da71fcbaf1b6634d6db1e490b56e8ac6640c952c99d93595c432819090"
+    },
+    {
+      "path": "heatmap_data-type_learning-setting.pdf",
+      "manuscript_sha256": "ae74934cdfb88acade4f441f0c144e756eddf6cc282987b69ff571124ebd337d",
+      "results_archive_sha256": "ae74934cdfb88acade4f441f0c144e756eddf6cc282987b69ff571124ebd337d"
+    },
+    {
+      "path": "heatmap_data-type_main-topics.pdf",
+      "manuscript_sha256": "3cb8d4e467b9d1aa84f90c388a0048bed8294893d1a765417c695f087f29684a",
+      "results_archive_sha256": "3cb8d4e467b9d1aa84f90c388a0048bed8294893d1a765417c695f087f29684a"
+    },
+    {
+      "path": "heatmap_data-type_supervision-type.pdf",
+      "manuscript_sha256": "478dd35b6ba92f2356c87a7f0876205ce68ab4ad90326ce5ea494bd7617636ba",
+      "results_archive_sha256": "478dd35b6ba92f2356c87a7f0876205ce68ab4ad90326ce5ea494bd7617636ba"
+    },
+    {
+      "path": "heatmap_learning-setting_main-topics.pdf",
+      "manuscript_sha256": "b72512ee07b465ec2928c4ff9dbe4b327d908b6e2982a96a1dae15d5c71e7b2f",
+      "results_archive_sha256": "b72512ee07b465ec2928c4ff9dbe4b327d908b6e2982a96a1dae15d5c71e7b2f"
+    },
+    {
+      "path": "heatmap_learning-setting_supervision-type.pdf",
+      "manuscript_sha256": "18312c8422b31c128c89aea0a5c295367d1027401a0734878393446bb05f9402",
+      "results_archive_sha256": "18312c8422b31c128c89aea0a5c295367d1027401a0734878393446bb05f9402"
+    },
+    {
+      "path": "heatmap_main-topics_supervision-type.pdf",
+      "manuscript_sha256": "c118237642f5b3d1d769019c8cb64a53e55f3e118f7cde91dd33b43dff8add2a",
+      "results_archive_sha256": "c118237642f5b3d1d769019c8cb64a53e55f3e118f7cde91dd33b43dff8add2a"
+    }
+  ]
+}

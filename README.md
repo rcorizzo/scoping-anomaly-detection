@@ -2,94 +2,85 @@
 
 Research artifacts supporting *A Scoping Review of Anomaly Detection: Trends, Insights, and Open Challenges*.
 
-This repository deposits the contents of the author-supplied archive `results_AnomalyDetection_20250430.zip`, with contact-email data removed from the public copies. It provides bibliographic exports, search configurations, processing logs, aggregate workbooks, and the original figure assets for inspection and use in the revision process.
+This repository contains the supplied literature-analysis toolkit and two separately versioned results snapshots. Contact lists are excluded, and contact-email fields are removed from public results. The supplied archives are not modified.
 
-## 1. Snapshot and Provenance
+## 1. Current Results and Historical Snapshot
 
-The available snapshot is [2025-04-30](data/2025-04-30/). Its configurations and processing logs establish the following:
+The newer results are deposited under **[data/2026-03-09/](data/2026-03-09/)**. This identifier follows the processing timestamps inside `status.txt`, not the July 2025 date in the archive name.
 
-| Attribute | Archived evidence |
-| --- | --- |
-| Configured publication years | 2015 through 2025 |
-| Processing date recorded in the logs | 30 April 2025; timezone unspecified |
-| Records identified through database searching | 19,231 |
-| Records after duplicate removal | 18,423 |
-| Records assessed for eligibility | 17,663 |
-| Retained-record counter in the PRISMA export | 5,733 |
-| Original archive contents | 62 files: 18 XLSX, 37 PDF, 2 JSON, 4 TXT, and 1 BibTeX |
-| Public archive-derived files | 61; the standalone contact list is excluded |
+| Attribute | Newer results | Historical results |
+| --- | --- | --- |
+| Snapshot | [2026-03-09](data/2026-03-09/) | [2025-04-30](data/2025-04-30/) |
+| Supplied archive | `results_Roberto_AnomalyDetection_20250717-5.zip` | `results_AnomalyDetection_20250430.zip` |
+| Configured publication years | 2016 through 2025 | 2015 through 2025 |
+| Logged processing date; timezone unspecified | 9 March 2026 | 30 April 2025 |
+| Records identified through database searching | 36,377 | 19,231 |
+| Records after duplicate removal | 32,900 | 18,423 |
+| Records assessed for eligibility | 31,870 | 17,663 |
+| Retained-record counter in the PRISMA export | **11,079** | 5,733 |
+| Public archive-derived files | 99 | 61 |
 
-These values are reported by the archived configuration and `aggr_prisma.xlsx`. They have not been substituted for the counts of a later manuscript dataset. In particular, this archive does **not** establish the provenance of a 2016-2025 corpus containing 19,884 retained records. Any later dataset and manuscript-figure correspondence require a separate, documented release.
+**Manuscript reconciliation remains necessary.** The newer archive's 75 PDFs are byte-for-byte identical to all 75 assets in the manuscript's `figures_2026_3` directory at manuscript commit `a3b6539`. However, its retained-record counter is **11,079**, not the **19,884** stated in the manuscript text. The `filtered_articles.xlsx` export independently contains 11,079 rows flagged relevant and 20,791 flagged not relevant. This deposit documents that inconsistency; it does not resolve which corpus the manuscript should report.
 
-The logs establish a processing run on 30 April 2025. They do not establish that every source was freshly queried on that date: the configuration has `force_crawl` set to `false`. Publication year 2025 is a partial year relative to this run and should not be used for an unqualified full-year growth comparison.
+The newer configuration includes the full publication-year window 2016--2025 and processing occurred after 2025. This supports a full-calendar-year eligibility window, but is not proof of exhaustive 2025 coverage or a fresh search on 9 March 2026: `force_crawl` is `false`, and cached retrieval may have been used. Source-specific query dates and execution provenance still require confirmation.
 
-See the [snapshot notes](docs/snapshot-2025-04-30.md) for the source coverage, archived counters, privacy transformations, and remaining methodological questions.
+Detailed evidence and limitations are recorded in the [newer snapshot notes](docs/snapshot-2026-03-09.md), [historical snapshot notes](docs/snapshot-2025-04-30.md), and [manuscript figure comparison](docs/manuscript-figure-matches.json).
 
 ## 2. Repository Contents
 
 ```text
+toolkit/                  Supplied source, without unrelated review data
+  configuration/          Processing constants and configuration classes
+  core/                   Search, filtering, similarity, and export logic
+  crawlers/               Source-specific retrieval implementations
+  help_tools/             Supporting utilities
+  visual/                 Plotting, heatmaps, and PRISMA rendering
+  main.py                 Original pipeline entry point
+  README.md               Original toolkit documentation
+  requirements*.txt       Original dependency specifications
+  Dockerfile              Original container specification
+  manifest.json           Archive inventory and exclusions
+  SHA256SUMS
 data/
-  2025-04-30/
-    articles.xlsx
-    filtered_articles.xlsx
-    articles_invalid.xlsx
-    articles_parsing_errors.xlsx
-    articles.bib
-    search_data_original.json
-    searched_data.json
-    search_data_simple.txt
-    status.txt
-    status_long.txt
-    aggr_*.xlsx
-    aggr_*.pdf
-    filtered_graph_*.xlsx
-    filtered_graph_*.pdf
-    heatmap_all_properties.pdf
-    manifest.json
-    SHA256SUMS
-docs/
-  snapshot-2025-04-30.md
+  2026-03-09/              Newer results; recommended starting point
+  2025-04-30/              Preserved historical results
+docs/                     Provenance and interpretation notes
 scripts/
-  verify_snapshot.py
+  import_archives.py       Reproducible archive selection and sanitization
+  verify_snapshot.py       Integrity and contact-removal checks
 ```
 
-The archive-derived filenames are preserved. `manifest.json` lists each published file, its size, original and published SHA-256 hashes, and any transformation applied. The original ZIP is identified by its hash, rather than uploaded, because it contains contact-email data.
+The newer results include 18 XLSX workbooks, 75 original PDFs, two JSON configurations, three processing/configuration TXT files, and a BibTeX export. Original archive-derived filenames are retained. The standalone `emails.txt` file is omitted.
 
-### 2.1 Bibliographic and Record-Level Exports
+### 2.1 Record-Level Exports
 
-| File | Contents and interpretation |
+| File in `data/2026-03-09/` | Interpretation |
 | --- | --- |
-| [`articles.xlsx`](data/2025-04-30/articles.xlsx) | Bibliographic export with 19,231 data rows; includes identifiers, titles, authors, dates, sources, abstracts, and affiliation fields. |
-| [`filtered_articles.xlsx`](data/2025-04-30/filtered_articles.xlsx) | Export of 17,663 records assessed for eligibility, including relevance flags, category assignments, and similarity/ranking fields. This file is not limited to the retained subset. |
-| [`articles_invalid.xlsx`](data/2025-04-30/articles_invalid.xlsx) | Separate invalid-record export; interpret with the original filtering implementation. |
-| [`articles_parsing_errors.xlsx`](data/2025-04-30/articles_parsing_errors.xlsx) | Export of records associated with parsing errors. |
-| [`articles.bib`](data/2025-04-30/articles.bib) | Bibliography generated by the original pipeline; bibliographic accuracy has not been comprehensively verified by this deposit. |
-| [`filtered_graph_data.xlsx`](data/2025-04-30/filtered_graph_data.xlsx) | Export of identifiers, affiliations, countries, and properties used for graph analysis. |
-| [`filtered_graph_properties.xlsx`](data/2025-04-30/filtered_graph_properties.xlsx) | Property counts and property-edge summaries. |
+| [`articles.xlsx`](data/2026-03-09/articles.xlsx) | 36,377 exported records before the subsequent filtering stages. |
+| [`filtered_articles.xlsx`](data/2026-03-09/filtered_articles.xlsx) | 31,870 eligibility-stage records, including both relevant and non-relevant rows; filter `is_article_relevant` for the pipeline-retained subset. |
+| `articles_invalid.xlsx`, `articles_parsing_errors.xlsx` | Separate diagnostic exports; interpret with the archived code and logs. |
+| [`articles.bib`](data/2026-03-09/articles.bib) | Pipeline-generated bibliography; this deposit does not certify bibliographic accuracy. |
+| `filtered_graph_data.xlsx`, `filtered_graph_properties.xlsx` | Graph-analysis inputs and property summaries. |
 
-Row counts exclude the header. Exported rows and pipeline counters do not automatically constitute verified counts of unique publications.
+Row counts exclude headers and are not independent verification of publication uniqueness, screening quality, or classification accuracy.
 
-### 2.2 Search Configuration and Logs
+### 2.2 Configurations, Tables, and Figures
 
-| File | Purpose |
-| --- | --- |
-| [`search_data_original.json`](data/2025-04-30/search_data_original.json) | Archived core terms, category dictionaries and synonyms, mandatory/excluded properties, source flags, year limits, and processing options. |
-| [`searched_data.json`](data/2025-04-30/searched_data.json) | Additional serialized search configuration retained from the archive; its filename does not by itself establish a separate retrieval run. |
-| [`search_data_simple.txt`](data/2025-04-30/search_data_simple.txt) | Text representation of search-related configuration. |
-| [`status.txt`](data/2025-04-30/status.txt) | Stage completion timestamps. |
-| [`status_long.txt`](data/2025-04-30/status_long.txt) | Detailed stage and processing-progress log. |
+`search_data_original.json`, `searched_data.json`, and `search_data_simple.txt` preserve the supplied search vocabulary and processing options. `status.txt` and `status_long.txt` preserve stage and progress logs. Configuration files are not substitutes for the exact database-specific queries as executed.
 
-The core retrieval terms are `Anomaly detection`, `Outlier detection`, and `Out of distribution detection`. The JSON files contain the archived vocabulary and configuration, including options that require the original code for interpretation. They should not be presented as complete database-specific Boolean queries as actually executed.
+`aggr_*.xlsx` contains annual counts, source summaries, property pivots, and PRISMA counters. The PDFs include category distributions, annual plots, pairwise heatmaps, source summaries, and graph visualizations. They are archived outputs, not recomputed figures. Pipeline labels such as "qualitative synthesis" and "meta-analysis" do not establish full-text synthesis or statistical pooling of study outcomes.
 
-### 2.3 Aggregate Tables and Figures
+## 3. Toolkit Source and Execution Boundaries
 
-The `aggr_*.xlsx` files provide yearly counts, source summaries, keyword/source and keyword/year pivots, property/year summaries, and PRISMA counters. Corresponding PDF assets include annual category plots, aggregate distributions, source summaries, graph visualizations, and a property heatmap.
+The [toolkit source](toolkit/) comes from `article-analysis-65087b32ca5001c41726a67f00c3e5cee9ee47fe.zip`. The filename contains revision identifier `65087b32ca5001c41726a67f00c3e5cee9ee47fe`. This identifies the supplied source archive, **not a verified execution commit for either results snapshot**.
 
-The original PDFs are preserved as historical outputs. Their PRISMA labels, such as "qualitative synthesis" and "meta-analysis", are archived pipeline labels and do not demonstrate that full-text qualitative synthesis or statistical meta-analysis was performed. Corrected figures should be deposited as a separate version after the underlying analysis is verified.
+The deposit retains 51 source/documentation files unchanged. It excludes all 1,460 files under the source archive's `data/` directory, six ancillary reference/mockup files, a personal Git-setup script, a contact-list collection script, and the identical lowercase duplicate of `Dockerfile`. The [source manifest](toolkit/manifest.json) records each exclusion and the original/published file hashes. No unrelated review dataset or environment file is included.
 
-## 3. Access and Verification
+Consult the [original toolkit README](toolkit/README.md) for configuration and implementation details. It is archival documentation, including its original terminology and claims. The original dependency files and Dockerfile are preserved; a working dependency environment and end-to-end reproduction have not been established by this deposit.
 
-Clone the repository and verify the public snapshot:
+**Inspect before executing.** The original entry point can crawl external services, download models/data, send result notifications, and invoke a machine-specific results-commit script. The bundled `main_test.py` is not treated as an isolated offline test. Use a separate working copy, inspect configuration and paths, disable unwanted notifications/publication actions, and follow the source services' access terms. No crawler, mail sender, or publication script was executed to prepare this deposit.
+
+## 4. Integrity and Privacy Verification
 
 ```bash
 git clone https://github.com/rcorizzo/scoping-anomaly-detection.git
@@ -97,38 +88,45 @@ cd scoping-anomaly-detection
 python3 scripts/verify_snapshot.py
 ```
 
-The verification script uses the Python standard library. It checks the file inventory, published SHA-256 hashes, absence of contact-email fields with populated values, and consistency of the checksum list with the manifest. It verifies the deposited artifacts; it does not reproduce or validate the scientific analysis.
+The standard-library verifier checks both results snapshots and the toolkit inventory against their manifests and `SHA256SUMS`. For result files, it also checks workbook XML and text exports for remaining email addresses and populated dedicated `emails` cells. It verifies deposited artifact integrity and contact removal, not scientific validity, source-query reproducibility, or a functioning toolkit environment.
 
-Individual workbooks can be opened in spreadsheet software and the figures in a PDF reader. The original NLP retrieval/analysis toolkit is identified in the manuscript at [article-analysis-public](https://gitlab.com/magix.ai/article-analysis-public/-/tree/update_version). That branch is mutable; the exact code commit and execution environment associated with this snapshot have not yet been established here. The archive itself contains outputs and configurations, but no source scripts for regenerating the original figures.
+To verify one results snapshot:
 
-## 4. Contact-Email Removal
+```bash
+python3 scripts/verify_snapshot.py --snapshot data/2026-03-09
+```
 
-The standalone `emails.txt` contact list is excluded. Dedicated `emails` columns in the public workbook copies are blank, and email addresses occurring elsewhere in the workbook XML or bibliography are replaced with `[email redacted]`. The manifest identifies files changed for this purpose. Scientific fields are otherwise preserved; the original figures and aggregate workbooks are not recomputed.
+To prepare a new local deposit from these original archives, use an empty destination:
 
-Original extracted files are retained only in the local ignored `.private/` directory. Neither that directory nor the original contact-containing ZIP is part of the public deposit.
+```bash
+python3 scripts/import_archives.py \
+  --source /path/to/article-analysis-65087b32ca5001c41726a67f00c3e5cee9ee47fe.zip \
+  --results /path/to/results_Roberto_AnomalyDetection_20250717-5.zip \
+  --destination /path/to/empty-deposit
+```
 
-## 5. Use in the Rebuttal and Manuscript Revision
+The standalone contact list is excluded. Dedicated `emails` workbook cells are blanked, and other email-address occurrences in workbook XML, configurations, or bibliographic text are replaced with `[email redacted]`. The manifests identify transformed files; scientific values are otherwise preserved. Original archives and raw contact-containing extracts are not committed.
 
-This deposit supports inspection of the historical search configuration, processing timestamps, bibliographic exports, and aggregate outputs. It supplies evidence relevant to the reviewers' requests for data access and provenance.
+## 5. Use in the Rebuttal
 
-The following work remains separate from publication of these artifacts:
+The repository now supplies source code as well as archived configurations, processing logs, record-level exports, aggregate tables, and figure assets. For the newer results, internal relevance counts agree with the PRISMA export and the PDF assets match the current manuscript figure directory exactly.
 
-1. Establishing the exact executed queries, actual retrieval dates, and immutable toolkit version.
-2. Reconciling this snapshot with the dataset and figures used in the submitted manuscript.
-3. Documenting human screening, full-text assessment, and classification-validation procedures and results.
-4. Reconciling unique-publication counts, category coverage, heatmap marginals, and percentage denominators.
-5. Regenerating figures and revising trend claims after those checks.
+Remaining issues include:
 
-Suitable factual wording for a response letter is:
+1. Reconciling the manuscript's 19,884 retained records with this snapshot's 11,079.
+2. Confirming the actual source-query dates, cache history, and source-code version used for the run.
+3. Documenting any human screening, full-text assessment, and classification validation.
+4. Checking publication uniqueness, overlapping tags, heatmap denominators, and numerical claims.
+5. Establishing a tested environment and regenerating outputs before claiming computational reproduction.
 
-> We have made the archived search configuration, processing logs, bibliographic exports, aggregate workbooks, and original figure assets available in a public repository. The deposit identifies the historical processing snapshot of 30 April 2025 and documents contact-email removal and file checksums. Its relationship to the final revised manuscript dataset will be specified separately.
+Suggested factual wording:
+
+> We have deposited the supplied analysis-toolkit source, excluding unrelated review datasets, together with the newer results snapshot whose processing logs are dated 9 March 2026. The repository includes search configurations, processing logs, bibliographic exports, aggregate workbooks, and original figure assets, with contact-email removal and file checksums documented. The snapshot contains 11,079 pipeline-retained records. Reconciliation of this count with the manuscript text, confirmation of query/execution provenance, and classification validation remain separate tasks.
 
 ## 6. Version Identification and Attribution
 
-When referring to these materials, cite the repository URL, snapshot identifier `2025-04-30`, and the Git commit used. Use a commit permalink in a final rebuttal so that readers can access the exact deposited version. The source-archive SHA-256 is:
+For a final response letter, cite this repository, the results snapshot identifier `2026-03-09`, and the exact Git commit containing the deposit. Use a commit permalink so that the referenced artifacts remain fixed. Source-archive hashes and per-file transformations are recorded in each manifest.
 
-```text
-3b1975e49f3335db5a9194d5cfc5f1590f24c3d9048ca944017f0d1d15e6c4ee
-```
+The historical April snapshot remains available and unchanged. Its original source hash is documented in its manifest and snapshot notes.
 
-Bibliographic records retain their source and publication identifiers. Attribution and reuse of third-party material remain subject to the applicable source terms; this deposit does not assign a new license to that material.
+Bibliographic records retain source and publication identifiers. Reuse remains subject to applicable source terms and the original authors' rights. No new license is assigned to third-party records, reference material, or the supplied toolkit by this deposit.

@@ -1,0 +1,1018 @@
+{
+  "snapshot_id": "2026-03-09",
+  "prepared_on": "2026-11-09",
+  "source_archive": "results_Roberto_AnomalyDetection_20250717-5.zip",
+  "source_archive_sha256": "16c6e63c15ef9bd747b3b8bf7526ec3cfa69120d1130141d7d4611e19457eebc",
+  "configured_year_start": "2016",
+  "configured_year_end": "2025",
+  "logged_processing_date": "2026-03-09",
+  "logged_timezone": null,
+  "scientific_validation_status": "Archived outputs; 11,079 relevant flags agree with the PRISMA export, not the manuscript total of 19,884. No search rerun or independent classification validation performed.",
+  "excluded": [
+    {
+      "path": "emails.txt",
+      "reason": "Contact list excluded at the author's request"
+    }
+  ],
+  "files": [
+    {
+      "path": "aggr_keyword_source_pivot_relevant.xlsx",
+      "original_bytes": 6263,
+      "published_bytes": 6263,
+      "original_sha256": "7cfe0480da7510c799075c5877584910338b208802c11c76fad4122f8b1bdf5d",
+      "published_sha256": "7cfe0480da7510c799075c5877584910338b208802c11c76fad4122f8b1bdf5d",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_keyword_source_relevant.pdf",
+      "original_bytes": 16216,
+      "published_bytes": 16216,
+      "original_sha256": "4122fc335267e9d27266e96b319edb26e2961a79ce21f117c805985da529ef22",
+      "published_sha256": "4122fc335267e9d27266e96b319edb26e2961a79ce21f117c805985da529ef22",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_keyword_year_pivot_relevant.xlsx",
+      "original_bytes": 6389,
+      "published_bytes": 6389,
+      "original_sha256": "7c8aaf8a6fb9997926bdd62267f468f98fef8d904b368e66fcfb6f929948df34",
+      "published_sha256": "7c8aaf8a6fb9997926bdd62267f468f98fef8d904b368e66fcfb6f929948df34",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_keyword_year_relevant.pdf",
+      "original_bytes": 14861,
+      "published_bytes": 14861,
+      "original_sha256": "56970ff64fb0150cf8c84836ade3345c0c48397bca9a06900c69dff044698c3c",
+      "published_sha256": "56970ff64fb0150cf8c84836ade3345c0c48397bca9a06900c69dff044698c3c",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_num_countries_affiliations_authors.xlsx",
+      "original_bytes": 23490,
+      "published_bytes": 23490,
+      "original_sha256": "39821540b73cae109cdac8b7f50b8971354d5df5ab5e99fa2922da95975973bb",
+      "published_sha256": "39821540b73cae109cdac8b7f50b8971354d5df5ab5e99fa2922da95975973bb",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_prisma.pdf",
+      "original_bytes": 23577,
+      "published_bytes": 23577,
+      "original_sha256": "ef914218ee6276053c1591d04e8e1a586785c78a42a76688dfe2389ecb79a7d0",
+      "published_sha256": "ef914218ee6276053c1591d04e8e1a586785c78a42a76688dfe2389ecb79a7d0",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_prisma.xlsx",
+      "original_bytes": 6326,
+      "published_bytes": 6326,
+      "original_sha256": "4a5a8ee0bceb27ee9376f77adc02d384ae4159bab35dc59b290d088d1508a525",
+      "published_sha256": "4a5a8ee0bceb27ee9376f77adc02d384ae4159bab35dc59b290d088d1508a525",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_prisma_scoping.pdf",
+      "original_bytes": 23439,
+      "published_bytes": 23439,
+      "original_sha256": "f161b558f8678573452da14e3a2019874ffaf33e8a75b799534d195e3bf0e391",
+      "published_sha256": "f161b558f8678573452da14e3a2019874ffaf33e8a75b799534d195e3bf0e391",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_group_percentage_ai-models---dl.pdf",
+      "original_bytes": 18573,
+      "published_bytes": 18573,
+      "original_sha256": "11531e34058927baf8616ccbf6e331013d86999ff038863639aa112ffa0e7a5c",
+      "published_sha256": "11531e34058927baf8616ccbf6e331013d86999ff038863639aa112ffa0e7a5c",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_group_percentage_ai-models---shallow.pdf",
+      "original_bytes": 19467,
+      "published_bytes": 19467,
+      "original_sha256": "bfd044e3ae1438f6e054c17d2e6e9ab539a3600451310ded5f9ca70a4074d484",
+      "published_sha256": "bfd044e3ae1438f6e054c17d2e6e9ab539a3600451310ded5f9ca70a4074d484",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_group_percentage_application-domain.pdf",
+      "original_bytes": 18658,
+      "published_bytes": 18658,
+      "original_sha256": "34d8eef5ad08f7eb164216ab83c8b17d5da826e55bd068bac86e801e1bae6349",
+      "published_sha256": "34d8eef5ad08f7eb164216ab83c8b17d5da826e55bd068bac86e801e1bae6349",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_group_percentage_concerns.pdf",
+      "original_bytes": 16978,
+      "published_bytes": 16978,
+      "original_sha256": "f5ca2af3729236ecca2e9ac59cd4bb3c3c7c6e37cce34d880abc5375730a686e",
+      "published_sha256": "f5ca2af3729236ecca2e9ac59cd4bb3c3c7c6e37cce34d880abc5375730a686e",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_group_percentage_data-modality.pdf",
+      "original_bytes": 15303,
+      "published_bytes": 15303,
+      "original_sha256": "e43a78e43c922c47914deb8f42f940379bf0af8ea759287c9585bad37843df69",
+      "published_sha256": "e43a78e43c922c47914deb8f42f940379bf0af8ea759287c9585bad37843df69",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_group_percentage_data-source.pdf",
+      "original_bytes": 16283,
+      "published_bytes": 16283,
+      "original_sha256": "67368d8574ae104c774872507a548bfdb2c22845fa5d95b5d427acc89021212e",
+      "published_sha256": "67368d8574ae104c774872507a548bfdb2c22845fa5d95b5d427acc89021212e",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_group_percentage_data-type.pdf",
+      "original_bytes": 17623,
+      "published_bytes": 17623,
+      "original_sha256": "174fdfd366594d5936aeebd8fa772c8e30bdcacdddc19d1f89e93ff24ea6e782",
+      "published_sha256": "174fdfd366594d5936aeebd8fa772c8e30bdcacdddc19d1f89e93ff24ea6e782",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_group_percentage_learning-setting.pdf",
+      "original_bytes": 17247,
+      "published_bytes": 17247,
+      "original_sha256": "56240a284c5b87bd39e95bac6816732ac363810f193f37edd3e2430644b7f19e",
+      "published_sha256": "56240a284c5b87bd39e95bac6816732ac363810f193f37edd3e2430644b7f19e",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_group_percentage_main-topics.pdf",
+      "original_bytes": 15407,
+      "published_bytes": 15407,
+      "original_sha256": "a3b4237ef658e281ac19501e9d1429f7b66126130592c4b962bad0795a7bc465",
+      "published_sha256": "a3b4237ef658e281ac19501e9d1429f7b66126130592c4b962bad0795a7bc465",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_group_percentage_supervision-type.pdf",
+      "original_bytes": 16411,
+      "published_bytes": 16411,
+      "original_sha256": "04272fa68eefc520c528a23041251d73a5c76599b1f75fd8c6c8875b956e9483",
+      "published_sha256": "04272fa68eefc520c528a23041251d73a5c76599b1f75fd8c6c8875b956e9483",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_group_year.pdf",
+      "original_bytes": 22012,
+      "published_bytes": 22012,
+      "original_sha256": "6df663d7af222f8d94e6552d77420c00d1f4846e2f035c412f61241710c209f3",
+      "published_sha256": "6df663d7af222f8d94e6552d77420c00d1f4846e2f035c412f61241710c209f3",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_group_year_pivot.xlsx",
+      "original_bytes": 6905,
+      "published_bytes": 6905,
+      "original_sha256": "7ce857464000d2987f192d61d75bb823e9f2aaa7a8514e4f5ae08961071cb0e7",
+      "published_sha256": "7ce857464000d2987f192d61d75bb823e9f2aaa7a8514e4f5ae08961071cb0e7",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_year.xlsx",
+      "original_bytes": 16376,
+      "published_bytes": 16376,
+      "original_sha256": "8dbec8daad79175964f4fbb97e284a4b26850b26309893a687a951758952d88b",
+      "published_sha256": "8dbec8daad79175964f4fbb97e284a4b26850b26309893a687a951758952d88b",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_year_ai-models---dl.pdf",
+      "original_bytes": 20338,
+      "published_bytes": 20338,
+      "original_sha256": "c457d451457660ec60c3cf1d06a3d693c8c85c8aaa6ffe3eed800d19dba9eb8a",
+      "published_sha256": "c457d451457660ec60c3cf1d06a3d693c8c85c8aaa6ffe3eed800d19dba9eb8a",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_year_ai-models---shallow.pdf",
+      "original_bytes": 21472,
+      "published_bytes": 21472,
+      "original_sha256": "8d6002185f8492e1ae346f9e95daae1d61589b67117f324e79f011329bc0b64f",
+      "published_sha256": "8d6002185f8492e1ae346f9e95daae1d61589b67117f324e79f011329bc0b64f",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_year_application-domain.pdf",
+      "original_bytes": 20973,
+      "published_bytes": 20973,
+      "original_sha256": "afd19ab4fbe34b5d94e16d3abc9c13b62c920dc445a13f71fbe7afd57d1dd482",
+      "published_sha256": "afd19ab4fbe34b5d94e16d3abc9c13b62c920dc445a13f71fbe7afd57d1dd482",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_year_concerns.pdf",
+      "original_bytes": 19179,
+      "published_bytes": 19179,
+      "original_sha256": "dd79672ed5893dde83cc042b03ab0b9e9eddb5455659b7cdb0abc36e04469da7",
+      "published_sha256": "dd79672ed5893dde83cc042b03ab0b9e9eddb5455659b7cdb0abc36e04469da7",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_year_data-modality.pdf",
+      "original_bytes": 15636,
+      "published_bytes": 15636,
+      "original_sha256": "ec591a50c03e6e44e74b538354dbbe0532a8c4a256d6f1ca481963047d10bb14",
+      "published_sha256": "ec591a50c03e6e44e74b538354dbbe0532a8c4a256d6f1ca481963047d10bb14",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_year_data-source.pdf",
+      "original_bytes": 16402,
+      "published_bytes": 16402,
+      "original_sha256": "411f9e77d939a854982406ba9099e6a59fc165675622e16b6bf837610efeac33",
+      "published_sha256": "411f9e77d939a854982406ba9099e6a59fc165675622e16b6bf837610efeac33",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_year_data-type.pdf",
+      "original_bytes": 19704,
+      "published_bytes": 19704,
+      "original_sha256": "91ac0c373fe97ddbb114faf5a96fe412d233b25fe60b6696dcb2395c5b8bb854",
+      "published_sha256": "91ac0c373fe97ddbb114faf5a96fe412d233b25fe60b6696dcb2395c5b8bb854",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_year_learning-setting.pdf",
+      "original_bytes": 17894,
+      "published_bytes": 17894,
+      "original_sha256": "16c3659670193863a84a8bc3c62acc0e812455dc7604603a80cbd3cdd895162d",
+      "published_sha256": "16c3659670193863a84a8bc3c62acc0e812455dc7604603a80cbd3cdd895162d",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_year_main-topics.pdf",
+      "original_bytes": 15785,
+      "published_bytes": 15785,
+      "original_sha256": "487ccf3ffb3c88e4b0dbe458826ca30bc9ba146f037353d923031910ff366d85",
+      "published_sha256": "487ccf3ffb3c88e4b0dbe458826ca30bc9ba146f037353d923031910ff366d85",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_year_pivot.xlsx",
+      "original_bytes": 9771,
+      "published_bytes": 9771,
+      "original_sha256": "9f002f6e9694e390c76daa697e3a66ffd09cad7a7a00890bb13f15c7067c7d06",
+      "published_sha256": "9f002f6e9694e390c76daa697e3a66ffd09cad7a7a00890bb13f15c7067c7d06",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_property_year_supervision-type.pdf",
+      "original_bytes": 17006,
+      "published_bytes": 17006,
+      "original_sha256": "42ea214c518007be932a736d63242372dab7cf5d57fa9af77d49a20c5660aba5",
+      "published_sha256": "42ea214c518007be932a736d63242372dab7cf5d57fa9af77d49a20c5660aba5",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_source.pdf",
+      "original_bytes": 17159,
+      "published_bytes": 17159,
+      "original_sha256": "f39bbabe690abe782928a796756460ac2e8dd364f0075cd4f6c81d253a84bbcd",
+      "published_sha256": "f39bbabe690abe782928a796756460ac2e8dd364f0075cd4f6c81d253a84bbcd",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_source.xlsx",
+      "original_bytes": 6528,
+      "published_bytes": 6528,
+      "original_sha256": "2f7e513acd9a54d8e54ab0db2a962744985305dd1168f2abadd50dba9ce4ce1d",
+      "published_sha256": "2f7e513acd9a54d8e54ab0db2a962744985305dd1168f2abadd50dba9ce4ce1d",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_source_year.xlsx",
+      "original_bytes": 6908,
+      "published_bytes": 6908,
+      "original_sha256": "353845a9dc27908c8dc7629078bf0298597ff2d2c126029d444510f1dbdec712",
+      "published_sha256": "353845a9dc27908c8dc7629078bf0298597ff2d2c126029d444510f1dbdec712",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_source_year_pivot_analyzed.xlsx",
+      "original_bytes": 6455,
+      "published_bytes": 6455,
+      "original_sha256": "eeb42bfa96b3932321c9d5bffd3e7453f7992013107fd9a85b9acaa39c9cb78f",
+      "published_sha256": "eeb42bfa96b3932321c9d5bffd3e7453f7992013107fd9a85b9acaa39c9cb78f",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_source_year_pivot_relevant.xlsx",
+      "original_bytes": 6435,
+      "published_bytes": 6435,
+      "original_sha256": "4080431f61fa64c55ae01ddb092a2923ac1b9753dd7d6e74f5d77f672b574030",
+      "published_sha256": "4080431f61fa64c55ae01ddb092a2923ac1b9753dd7d6e74f5d77f672b574030",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_source_year_relevant.pdf",
+      "original_bytes": 16845,
+      "published_bytes": 16845,
+      "original_sha256": "85e676769929a6cf703dbcb98de77d6ca2eec0c3ac4fa0ec3e7791010549f3bb",
+      "published_sha256": "85e676769929a6cf703dbcb98de77d6ca2eec0c3ac4fa0ec3e7791010549f3bb",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_year.pdf",
+      "original_bytes": 14130,
+      "published_bytes": 14130,
+      "original_sha256": "9c8cbbafb5596b7ca96aab4e72af067c6e2b0d1fa5fcc33ae8affe591679b4ea",
+      "published_sha256": "9c8cbbafb5596b7ca96aab4e72af067c6e2b0d1fa5fcc33ae8affe591679b4ea",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "aggr_year.xlsx",
+      "original_bytes": 6269,
+      "published_bytes": 6269,
+      "original_sha256": "a1e163c369ea1cbbc943809c64443bf8d6d9e9ffb25a904db6eae3607d07b32d",
+      "published_sha256": "a1e163c369ea1cbbc943809c64443bf8d6d9e9ffb25a904db6eae3607d07b32d",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "articles.bib",
+      "original_bytes": 4516527,
+      "published_bytes": 4516530,
+      "original_sha256": "82d234c4a5f32bcd96943677c64de381e5b4f288a511605f41ab3f686001e443",
+      "published_sha256": "a4bf70459c6670eb88415947fd0cda559443097fe51115517bd68e4c63877f15",
+      "transformation": "contact-email removal",
+      "email_address_replacements": 1,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "articles.xlsx",
+      "original_bytes": 24163153,
+      "published_bytes": 24240678,
+      "original_sha256": "383ce24b22add3664be2a0bf2cb4cbc19fa095249201bee8b8b0771953813ad7",
+      "published_sha256": "f80f805e9997b0d1e52e29f6570a2f35802a8d7afd104b5257a718d38c3a9f17",
+      "transformation": "contact-email removal",
+      "email_address_replacements": 9257,
+      "email_column_cells_cleared": 7052
+    },
+    {
+      "path": "articles_invalid.xlsx",
+      "original_bytes": 7257,
+      "published_bytes": 7286,
+      "original_sha256": "530842ec47ece09fdce56a47071bafb3c569191835450b7afa1a33b734067a57",
+      "published_sha256": "5168bccf6bbfa93d0c541fdc8d805e2da1d47b3eddd6123c06606865ee84ee5e",
+      "transformation": "contact-email removal",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 1
+    },
+    {
+      "path": "articles_parsing_errors.xlsx",
+      "original_bytes": 380788,
+      "published_bytes": 389480,
+      "original_sha256": "64147bb26be9d9226cd3e86a6b9ebfe7912ae17477608f7ada43552a2cb26b62",
+      "published_sha256": "882d512eda93b6938ca541e4cef379900aff8935900f936f6d273ab0a0d9eab5",
+      "transformation": "contact-email removal",
+      "email_address_replacements": 16,
+      "email_column_cells_cleared": 1708
+    },
+    {
+      "path": "filtered_articles.xlsx",
+      "original_bytes": 25924093,
+      "published_bytes": 26114977,
+      "original_sha256": "23590a357775a6850e4bc7b53426d40967825839c4f2dd8f2fc341c32a824363",
+      "published_sha256": "b94710d0eae00e013ee0ef418d285716df6a52b0b3d8f12c9e437f6fc850e417",
+      "transformation": "contact-email removal",
+      "email_address_replacements": 8591,
+      "email_column_cells_cleared": 6393
+    },
+    {
+      "path": "filtered_graph_all_countries.pdf",
+      "original_bytes": 41362,
+      "published_bytes": 41362,
+      "original_sha256": "fb7013dd78901eb70c8c367e01bf7db5a1edcc1af0b24b7061e8d0f5533bb264",
+      "published_sha256": "fb7013dd78901eb70c8c367e01bf7db5a1edcc1af0b24b7061e8d0f5533bb264",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "filtered_graph_all_properties.pdf",
+      "original_bytes": 122468,
+      "published_bytes": 122468,
+      "original_sha256": "3d60372f115ada11a74ee9ce65a43174167b20937e6ef6f9a27bc5ba7c06b036",
+      "published_sha256": "3d60372f115ada11a74ee9ce65a43174167b20937e6ef6f9a27bc5ba7c06b036",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "filtered_graph_data.xlsx",
+      "original_bytes": 1238339,
+      "published_bytes": 1238339,
+      "original_sha256": "6c9da5596e996489f4d6e94f309733e2b55105a0b0f39bc984ab8027d37da3c6",
+      "published_sha256": "6c9da5596e996489f4d6e94f309733e2b55105a0b0f39bc984ab8027d37da3c6",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "filtered_graph_properties.xlsx",
+      "original_bytes": 19363,
+      "published_bytes": 19363,
+      "original_sha256": "21a3643edce84743d751b636fdf85cd4be7891dc49ab828f9e23af25782050bf",
+      "published_sha256": "21a3643edce84743d751b636fdf85cd4be7891dc49ab828f9e23af25782050bf",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_ai-models-dl_ai-models-shallow.pdf",
+      "original_bytes": 25960,
+      "published_bytes": 25960,
+      "original_sha256": "fd131ffb8e8b1f74018eab33a67abca4425b7888f9559d1b6bff404a77277d4b",
+      "published_sha256": "fd131ffb8e8b1f74018eab33a67abca4425b7888f9559d1b6bff404a77277d4b",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_ai-models-dl_application-domain.pdf",
+      "original_bytes": 25268,
+      "published_bytes": 25268,
+      "original_sha256": "cb90728120cbbc74374fa96dd9102fe74b1e9877b64d8117cd948b01e40447b5",
+      "published_sha256": "cb90728120cbbc74374fa96dd9102fe74b1e9877b64d8117cd948b01e40447b5",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_ai-models-dl_concerns.pdf",
+      "original_bytes": 24507,
+      "published_bytes": 24507,
+      "original_sha256": "d20775624b3b9c20fbe2dc09065260826a3279614151e2e3c5298b4eb2aa4682",
+      "published_sha256": "d20775624b3b9c20fbe2dc09065260826a3279614151e2e3c5298b4eb2aa4682",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_ai-models-dl_data-modality.pdf",
+      "original_bytes": 19680,
+      "published_bytes": 19680,
+      "original_sha256": "1673871d403c2e64c987b7909266c800522acb654798868bb6636ee2a6f4dbec",
+      "published_sha256": "1673871d403c2e64c987b7909266c800522acb654798868bb6636ee2a6f4dbec",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_ai-models-dl_data-source.pdf",
+      "original_bytes": 19644,
+      "published_bytes": 19644,
+      "original_sha256": "267d63e882c27251cdad13724ec3a7b344d310ae3fd94a587482e7cc81bc42c7",
+      "published_sha256": "267d63e882c27251cdad13724ec3a7b344d310ae3fd94a587482e7cc81bc42c7",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_ai-models-dl_data-type.pdf",
+      "original_bytes": 23402,
+      "published_bytes": 23402,
+      "original_sha256": "c0c4368da628ee515ec998e04a043447c14615eb75a39a7d53b50c0ea0db24e4",
+      "published_sha256": "c0c4368da628ee515ec998e04a043447c14615eb75a39a7d53b50c0ea0db24e4",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_ai-models-dl_learning-setting.pdf",
+      "original_bytes": 22886,
+      "published_bytes": 22886,
+      "original_sha256": "7b5657259a59a5e013c0b0b879ed3f0a5dfdb3f8793f6001af994f501efd1fc6",
+      "published_sha256": "7b5657259a59a5e013c0b0b879ed3f0a5dfdb3f8793f6001af994f501efd1fc6",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_ai-models-dl_main-topics.pdf",
+      "original_bytes": 20396,
+      "published_bytes": 20396,
+      "original_sha256": "ff95ae8a60fc958a666efb341129f0d4d2c43cf8fad1024121a256c9e5ed752f",
+      "published_sha256": "ff95ae8a60fc958a666efb341129f0d4d2c43cf8fad1024121a256c9e5ed752f",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_ai-models-dl_supervision-type.pdf",
+      "original_bytes": 21120,
+      "published_bytes": 21120,
+      "original_sha256": "de31a25cc774482355e8db5f9bb5504bba09146e7e69df3c517f50235bc49592",
+      "published_sha256": "de31a25cc774482355e8db5f9bb5504bba09146e7e69df3c517f50235bc49592",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_ai-models-shallow_application-domain.pdf",
+      "original_bytes": 26186,
+      "published_bytes": 26186,
+      "original_sha256": "779aa7b6eda937d2dc7280f92f614b19ff29f9136066108717dd9b875034e4f1",
+      "published_sha256": "779aa7b6eda937d2dc7280f92f614b19ff29f9136066108717dd9b875034e4f1",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_ai-models-shallow_concerns.pdf",
+      "original_bytes": 26312,
+      "published_bytes": 26312,
+      "original_sha256": "bb07aa6b2b1886a1e2591307ac6de3d9a544243b7e0d40985eaaf92520c1a445",
+      "published_sha256": "bb07aa6b2b1886a1e2591307ac6de3d9a544243b7e0d40985eaaf92520c1a445",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_ai-models-shallow_data-modality.pdf",
+      "original_bytes": 20610,
+      "published_bytes": 20610,
+      "original_sha256": "10bed3bc727db58feea16cc829b8e9e7562cdc449c71022c5c52a7b59f6a8979",
+      "published_sha256": "10bed3bc727db58feea16cc829b8e9e7562cdc449c71022c5c52a7b59f6a8979",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_ai-models-shallow_data-source.pdf",
+      "original_bytes": 20728,
+      "published_bytes": 20728,
+      "original_sha256": "94411fe82fcfd57ef15989c5ca0f3ba187d6abd1872567b712ea857cc29d4c6b",
+      "published_sha256": "94411fe82fcfd57ef15989c5ca0f3ba187d6abd1872567b712ea857cc29d4c6b",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_ai-models-shallow_data-type.pdf",
+      "original_bytes": 24408,
+      "published_bytes": 24408,
+      "original_sha256": "46e7da1cdd0037eaa31ab6e13582c1ba703d04cbf610ec50128f4a1350af683f",
+      "published_sha256": "46e7da1cdd0037eaa31ab6e13582c1ba703d04cbf610ec50128f4a1350af683f",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_ai-models-shallow_learning-setting.pdf",
+      "original_bytes": 23984,
+      "published_bytes": 23984,
+      "original_sha256": "e5e5dc4a7105237c4512d359bdd027b5787143f29d2a71391c8ca43ba99f91ef",
+      "published_sha256": "e5e5dc4a7105237c4512d359bdd027b5787143f29d2a71391c8ca43ba99f91ef",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_ai-models-shallow_main-topics.pdf",
+      "original_bytes": 21638,
+      "published_bytes": 21638,
+      "original_sha256": "332bfdd4b2bb6620776deb53b789f6d4d98e4e950f49d6940e8e26491c9ae2d9",
+      "published_sha256": "332bfdd4b2bb6620776deb53b789f6d4d98e4e950f49d6940e8e26491c9ae2d9",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_ai-models-shallow_supervision-type.pdf",
+      "original_bytes": 22591,
+      "published_bytes": 22591,
+      "original_sha256": "56a8cf776654cf20c0a1d3f3a2bfa5007a5da9b49f8ba3c7bc19577537a3e11b",
+      "published_sha256": "56a8cf776654cf20c0a1d3f3a2bfa5007a5da9b49f8ba3c7bc19577537a3e11b",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_application-domain_concerns.pdf",
+      "original_bytes": 24631,
+      "published_bytes": 24631,
+      "original_sha256": "52ba4bdb526a91d8710f156964b853fad5e7e928b5731c7de12f044e720a0fbd",
+      "published_sha256": "52ba4bdb526a91d8710f156964b853fad5e7e928b5731c7de12f044e720a0fbd",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_application-domain_data-modality.pdf",
+      "original_bytes": 20604,
+      "published_bytes": 20604,
+      "original_sha256": "86e92d29a58f947f2de112c12dd137baabc46410327066cf268e6fbb066c4fc8",
+      "published_sha256": "86e92d29a58f947f2de112c12dd137baabc46410327066cf268e6fbb066c4fc8",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_application-domain_data-source.pdf",
+      "original_bytes": 21233,
+      "published_bytes": 21233,
+      "original_sha256": "9c83fe50b3cca73af7f8651c986c90e692190be29ed8b195763ac9b0667f32c6",
+      "published_sha256": "9c83fe50b3cca73af7f8651c986c90e692190be29ed8b195763ac9b0667f32c6",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_application-domain_data-type.pdf",
+      "original_bytes": 23997,
+      "published_bytes": 23997,
+      "original_sha256": "410a6aa6dc8414b206bd3682e4d37e69ecdb291a0eecfc670b53dd733da3f750",
+      "published_sha256": "410a6aa6dc8414b206bd3682e4d37e69ecdb291a0eecfc670b53dd733da3f750",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_application-domain_learning-setting.pdf",
+      "original_bytes": 23248,
+      "published_bytes": 23248,
+      "original_sha256": "0aa3d285dee85182fbe21a485ef46ec29f74d97061676c4e59635c21493c415b",
+      "published_sha256": "0aa3d285dee85182fbe21a485ef46ec29f74d97061676c4e59635c21493c415b",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_application-domain_main-topics.pdf",
+      "original_bytes": 20823,
+      "published_bytes": 20823,
+      "original_sha256": "c0eadc6e4cf0eee35d6f9084b0957eb48c7bb1c33808707b1dcd8d528268d28d",
+      "published_sha256": "c0eadc6e4cf0eee35d6f9084b0957eb48c7bb1c33808707b1dcd8d528268d28d",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_application-domain_supervision-type.pdf",
+      "original_bytes": 22378,
+      "published_bytes": 22378,
+      "original_sha256": "20391071a9ee27145b845d9d49cef0f625c5ff089963a33b374a82ba6992cf04",
+      "published_sha256": "20391071a9ee27145b845d9d49cef0f625c5ff089963a33b374a82ba6992cf04",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_concerns_data-modality.pdf",
+      "original_bytes": 18040,
+      "published_bytes": 18040,
+      "original_sha256": "0efba01344811792bb884b4a446bbac54212d8aef433628878970b3fe26c5ab9",
+      "published_sha256": "0efba01344811792bb884b4a446bbac54212d8aef433628878970b3fe26c5ab9",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_concerns_data-source.pdf",
+      "original_bytes": 19466,
+      "published_bytes": 19466,
+      "original_sha256": "34580b2c0d6f04999afb299be1bed93737f288dc657b2d929ed700188e662999",
+      "published_sha256": "34580b2c0d6f04999afb299be1bed93737f288dc657b2d929ed700188e662999",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_concerns_data-type.pdf",
+      "original_bytes": 22896,
+      "published_bytes": 22896,
+      "original_sha256": "1e05bc674f8e444f5f8f53f583254f05fca4562750d8bcf06abc7545eda1bf33",
+      "published_sha256": "1e05bc674f8e444f5f8f53f583254f05fca4562750d8bcf06abc7545eda1bf33",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_concerns_learning-setting.pdf",
+      "original_bytes": 22121,
+      "published_bytes": 22121,
+      "original_sha256": "8c3b08f247018f0979fdfcea3f6ba3a466e99f1b0b030998d40157fff4f6cfaf",
+      "published_sha256": "8c3b08f247018f0979fdfcea3f6ba3a466e99f1b0b030998d40157fff4f6cfaf",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_concerns_main-topics.pdf",
+      "original_bytes": 19142,
+      "published_bytes": 19142,
+      "original_sha256": "beee381a81ba44f64bebc4a59b6d6d04db1b2fd0573563e8dfe73462d20b847b",
+      "published_sha256": "beee381a81ba44f64bebc4a59b6d6d04db1b2fd0573563e8dfe73462d20b847b",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_concerns_supervision-type.pdf",
+      "original_bytes": 19839,
+      "published_bytes": 19839,
+      "original_sha256": "505a3757fce6b86feef3c3ed28a9d7852dd27f1502acfa7ac15a6fe7e12e7528",
+      "published_sha256": "505a3757fce6b86feef3c3ed28a9d7852dd27f1502acfa7ac15a6fe7e12e7528",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_data-modality_data-source.pdf",
+      "original_bytes": 15026,
+      "published_bytes": 15026,
+      "original_sha256": "31531ee7205557ff6ee238be20fd531b0978b3d3d9e117368956d3b7528b7c90",
+      "published_sha256": "31531ee7205557ff6ee238be20fd531b0978b3d3d9e117368956d3b7528b7c90",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_data-modality_data-type.pdf",
+      "original_bytes": 17215,
+      "published_bytes": 17215,
+      "original_sha256": "22d44012ea1868e634beb3286bf5eb2fccda7c6cdf920adeb8c51b7616ac002b",
+      "published_sha256": "22d44012ea1868e634beb3286bf5eb2fccda7c6cdf920adeb8c51b7616ac002b",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_data-modality_learning-setting.pdf",
+      "original_bytes": 17398,
+      "published_bytes": 17398,
+      "original_sha256": "6a972933c5113b94308e1811c062660da2ce38951f04a7da62dd9a585d1f4fb9",
+      "published_sha256": "6a972933c5113b94308e1811c062660da2ce38951f04a7da62dd9a585d1f4fb9",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_data-modality_main-topics.pdf",
+      "original_bytes": 14642,
+      "published_bytes": 14642,
+      "original_sha256": "402d8a9633622ad6cab7a9615e0e87e4697523931f2e212bce6d4ce3dc439d5c",
+      "published_sha256": "402d8a9633622ad6cab7a9615e0e87e4697523931f2e212bce6d4ce3dc439d5c",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_data-modality_supervision-type.pdf",
+      "original_bytes": 14877,
+      "published_bytes": 14877,
+      "original_sha256": "93ca785b47d1caa66d60f0a9558020897e0c2130bc4638f16425b2ebab051500",
+      "published_sha256": "93ca785b47d1caa66d60f0a9558020897e0c2130bc4638f16425b2ebab051500",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_data-source_data-type.pdf",
+      "original_bytes": 18478,
+      "published_bytes": 18478,
+      "original_sha256": "8bac292f0fb0ae0e967d9c9223ab1a06c197889c302c37fa111b5d636ddf4069",
+      "published_sha256": "8bac292f0fb0ae0e967d9c9223ab1a06c197889c302c37fa111b5d636ddf4069",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_data-source_learning-setting.pdf",
+      "original_bytes": 18231,
+      "published_bytes": 18231,
+      "original_sha256": "9596756c839ee3eebd52d9b6fc5a104a571917617bdf09a4d4386e5ea39b6795",
+      "published_sha256": "9596756c839ee3eebd52d9b6fc5a104a571917617bdf09a4d4386e5ea39b6795",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_data-source_main-topics.pdf",
+      "original_bytes": 15984,
+      "published_bytes": 15984,
+      "original_sha256": "c7cf260efa8cf804fe9141d09caae29d079b7e502ce4515ae1677de86bf4b9e7",
+      "published_sha256": "c7cf260efa8cf804fe9141d09caae29d079b7e502ce4515ae1677de86bf4b9e7",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_data-source_supervision-type.pdf",
+      "original_bytes": 16823,
+      "published_bytes": 16823,
+      "original_sha256": "051b87da71fcbaf1b6634d6db1e490b56e8ac6640c952c99d93595c432819090",
+      "published_sha256": "051b87da71fcbaf1b6634d6db1e490b56e8ac6640c952c99d93595c432819090",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_data-type_learning-setting.pdf",
+      "original_bytes": 21506,
+      "published_bytes": 21506,
+      "original_sha256": "ae74934cdfb88acade4f441f0c144e756eddf6cc282987b69ff571124ebd337d",
+      "published_sha256": "ae74934cdfb88acade4f441f0c144e756eddf6cc282987b69ff571124ebd337d",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_data-type_main-topics.pdf",
+      "original_bytes": 19354,
+      "published_bytes": 19354,
+      "original_sha256": "3cb8d4e467b9d1aa84f90c388a0048bed8294893d1a765417c695f087f29684a",
+      "published_sha256": "3cb8d4e467b9d1aa84f90c388a0048bed8294893d1a765417c695f087f29684a",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_data-type_supervision-type.pdf",
+      "original_bytes": 18902,
+      "published_bytes": 18902,
+      "original_sha256": "478dd35b6ba92f2356c87a7f0876205ce68ab4ad90326ce5ea494bd7617636ba",
+      "published_sha256": "478dd35b6ba92f2356c87a7f0876205ce68ab4ad90326ce5ea494bd7617636ba",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_learning-setting_main-topics.pdf",
+      "original_bytes": 17933,
+      "published_bytes": 17933,
+      "original_sha256": "b72512ee07b465ec2928c4ff9dbe4b327d908b6e2982a96a1dae15d5c71e7b2f",
+      "published_sha256": "b72512ee07b465ec2928c4ff9dbe4b327d908b6e2982a96a1dae15d5c71e7b2f",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_learning-setting_supervision-type.pdf",
+      "original_bytes": 18487,
+      "published_bytes": 18487,
+      "original_sha256": "18312c8422b31c128c89aea0a5c295367d1027401a0734878393446bb05f9402",
+      "published_sha256": "18312c8422b31c128c89aea0a5c295367d1027401a0734878393446bb05f9402",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "heatmap_main-topics_supervision-type.pdf",
+      "original_bytes": 16685,
+      "published_bytes": 16685,
+      "original_sha256": "c118237642f5b3d1d769019c8cb64a53e55f3e118f7cde91dd33b43dff8add2a",
+      "published_sha256": "c118237642f5b3d1d769019c8cb64a53e55f3e118f7cde91dd33b43dff8add2a",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "search_data_original.json",
+      "original_bytes": 12161,
+      "published_bytes": 12163,
+      "original_sha256": "716bfe20991c5471bd0dbeb6a49cbd913c059906a6603e2f6aa79f65196bfaa7",
+      "published_sha256": "c82627a492a01be84908174e54941f2e5d9eacd597f55e0f2fa1754f0c873641",
+      "transformation": "contact-email removal",
+      "email_address_replacements": 2,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "search_data_simple.txt",
+      "original_bytes": 11561,
+      "published_bytes": 11561,
+      "original_sha256": "1724aa5deccb020b33c8a8e30e1e9cfb9596d83d1647bba9eb3d03d82bfbd4c3",
+      "published_sha256": "1724aa5deccb020b33c8a8e30e1e9cfb9596d83d1647bba9eb3d03d82bfbd4c3",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "searched_data.json",
+      "original_bytes": 22624,
+      "published_bytes": 22626,
+      "original_sha256": "97904ff583f8c51e8d7d5aeaaadfed946e611a738c12e4001756bb2dc24ae61f",
+      "published_sha256": "c1866d8d65afee9d5cf3f7b15564a48880b48b977fccd3ad42e2c81179cc7d6d",
+      "transformation": "contact-email removal",
+      "email_address_replacements": 2,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "status.txt",
+      "original_bytes": 1035,
+      "published_bytes": 1035,
+      "original_sha256": "1248512f9acffd45ee951e8bec0fb365149747bb54274986afb286e8b13536e4",
+      "published_sha256": "1248512f9acffd45ee951e8bec0fb365149747bb54274986afb286e8b13536e4",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    },
+    {
+      "path": "status_long.txt",
+      "original_bytes": 31400,
+      "published_bytes": 31400,
+      "original_sha256": "79b6488a9bbdfd928e8338653a25f0e8af374c22799bdf929e671256154c9a99",
+      "published_sha256": "79b6488a9bbdfd928e8338653a25f0e8af374c22799bdf929e671256154c9a99",
+      "transformation": "unchanged",
+      "email_address_replacements": 0,
+      "email_column_cells_cleared": 0
+    }
+  ],
+  "source_archive_file_count": 100,
+  "source_archive_extension_counts": {
+    ".txt": 4,
+    ".pdf": 75,
+    ".xlsx": 18,
+    ".bib": 1,
+    ".json": 2
+  },
+  "published_archive_file_count": 99
+}
