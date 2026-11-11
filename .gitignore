@@ -8,4 +8,5 @@ results_AnomalyDetection_20250430.zip
 .env
 .env.*
 .venv/
+.venv-revision/
 toolkit/data/

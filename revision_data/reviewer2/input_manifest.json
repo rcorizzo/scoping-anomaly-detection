@@ -1,0 +1,80 @@
+{
+  "source_repository": "https://github.com/rcorizzo/scoping-anomaly-detection",
+  "source_commit": "6673b471ef6903b4921b7ef90e7c2c88fff87655",
+  "snapshot": "2026-03-09",
+  "source_workbook": "filtered_articles.xlsx",
+  "source_workbook_sha256": "b94710d0eae00e013ee0ef418d285716df6a52b0b3d8f12c9e437f6fc850e417",
+  "retained_rows": 11079,
+  "missing_doi_rows": 127,
+  "repeated_nonmissing_doi": 0,
+  "repeated_links": 0,
+  "canonical_categories": {
+    "Application Domain": [
+      "Blockchain",
+      "Cyber-physical systems",
+      "Cybersecurity",
+      "Healthcare",
+      "IoT",
+      "Manufacturing",
+      "Renewable Energy",
+      "Weather"
+    ],
+    "Data type": [
+      "Graph",
+      "Image",
+      "Multimodal",
+      "Spatio-temporal",
+      "Text",
+      "Time series",
+      "Video"
+    ],
+    "AI models - Shallow": [
+      "Bayesian Learning",
+      "Clustering Algorithms",
+      "Decision Trees",
+      "Genetic Algorithms",
+      "Instance-Based Learning",
+      "Linear Models",
+      "Rule-Based Learning",
+      "SVM",
+      "Statistical Based"
+    ],
+    "AI models - DL": [
+      "Attention-based",
+      "Auto-encoder",
+      "CNN",
+      "Diffusion Models",
+      "GAN",
+      "Graph Neural Networks",
+      "RNN/LSTM"
+    ],
+    "Learning setting": [
+      "Active learning",
+      "Adversarial Learning",
+      "Federated learning",
+      "Meta-learning",
+      "Quantum computing",
+      "Reinforcement learning"
+    ],
+    "Supervision type": [
+      "Self-Supervised Learning",
+      "Semi-supervised",
+      "Supervised",
+      "Unsupervised"
+    ],
+    "Concerns": [
+      "Cloud computing",
+      "Data noise",
+      "Edge computing",
+      "Interpretability",
+      "Privacy",
+      "Safety",
+      "Scalability"
+    ]
+  },
+  "annual_counts_match_archived_export": true,
+  "record_table_sha256": "25b09df7336b1bc8a9fc5df0a13452c5a8a5e4a997f042ad10d8e93fa19c7c61",
+  "counting_unit": "One retained export row; unique snapshot ID and link, no repeated nonmissing normalized DOI",
+  "semantic_validation": "No new manual classification validation or risk-of-bias appraisal performed",
+  "privacy": "Only hashed snapshot identifiers, years, and canonical category/source tags retained"
+}

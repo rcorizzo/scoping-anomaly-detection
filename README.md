@@ -20,7 +20,7 @@ The newer results are deposited under **[data/2026-03-09/](data/2026-03-09/)**. 
 | Retained-record counter in the PRISMA export | **11,079** | 5,733 |
 | Public archive-derived files | 99 | 61 |
 
-**Manuscript reconciliation remains necessary.** The newer archive's 75 PDFs are byte-for-byte identical to all 75 assets in the manuscript's `figures_2026_3` directory at manuscript commit `a3b6539`. However, its retained-record counter is **11,079**, not the **19,884** stated in the manuscript text. The `filtered_articles.xlsx` export independently contains 11,079 rows flagged relevant and 20,791 flagged not relevant. This deposit documents that inconsistency; it does not resolve which corpus the manuscript should report.
+**Manuscript count correction.** The authors confirmed that the previously reported **19,884** belonged to an obsolete PRISMA figure. The manuscript now uses **11,079**, matching the newer export's relevant-row count; 20,791 eligibility-stage rows are flagged not relevant. The archive's 75 PDFs match the preserved `figures_2026_3` assets in the manuscript at commit `a3b6539`. The new revision-stage normalized plots are separately generated in `figures_revision2/`, not substituted into the historical snapshot. See Section 7 for their inputs, formulas, and reproduction commands.
 
 The newer configuration includes the full publication-year window 2016--2025 and processing occurred after 2025. This supports a full-calendar-year eligibility window, but is not proof of exhaustive 2025 coverage or a fresh search on 9 March 2026: `force_crawl` is `false`, and cached retrieval may have been used. Source-specific query dates and execution provenance still require confirmation.
 
@@ -113,7 +113,7 @@ The repository now supplies source code as well as archived configurations, proc
 
 Remaining issues include:
 
-1. Reconciling the manuscript's 19,884 retained records with this snapshot's 11,079.
+1. Maintaining consistency of the corrected 11,079 retained records across the manuscript and response letter; the earlier PRISMA-version mismatch has been identified and corrected.
 2. Confirming the actual source-query dates, cache history, and source-code version used for the run.
 3. Documenting any human screening, full-text assessment, and classification validation.
 4. Checking publication uniqueness, overlapping tags, heatmap denominators, and numerical claims.
@@ -130,3 +130,28 @@ For a final response letter, cite this repository, the results snapshot identifi
 The historical April snapshot remains available and unchanged. Its original source hash is documented in its manifest and snapshot notes.
 
 Bibliographic records retain source and publication identifiers. Reuse remains subject to applicable source terms and the original authors' rights. No new license is assigned to third-party records, reference material, or the supplied toolkit by this deposit.
+
+## 7. Revision-Stage Normalized Figures
+
+The Reviewer 2 figure revision is provided separately from the unchanged archived outputs:
+
+- [`scripts/revision_analysis.py`](scripts/revision_analysis.py): offline counting and figure generation.
+- [`revision_data/reviewer2/`](revision_data/reviewer2/): frozen, contact-free record/tag table, annual denominators, coverage, cross-counts, generated manuscript summaries, and manifests.
+- [`figures_revision2/`](figures_revision2/): seven annual category figures, one source-attribution figure, and three domain cross-sections, as vector PDFs and PNG previews.
+- [`scripts/test_revision_analysis.py`](scripts/test_revision_analysis.py): regression tests for overlap, denominators, coverage, missing tags, zero assignments, identifiers, and years.
+
+Each annual figure separates absolute counts, prevalence among all retained records in that year, and 100% shares of category assignments. Categories overlap, so only assignment composition is constrained to sum to 100%. All three heatmaps show both record counts and prevalence among all retained records in the corresponding domain, including rows without a tag in the compared dimension.
+
+```bash
+python3 -m venv .venv-revision
+.venv-revision/bin/python -m pip install -r scripts/requirements-revision.txt
+.venv-revision/bin/python scripts/revision_analysis.py
+.venv-revision/bin/python scripts/revision_analysis.py --verify-only
+.venv-revision/bin/python -m unittest discover -s scripts -p 'test_revision_analysis.py' -v
+```
+
+Use Python 3.12 with the pinned packages. Further details are in the [revision analysis notes](revision_data/reviewer2/README.md).
+
+The frozen input has 11,079 unique snapshot identifiers. Coverage is 100% for application-domain tags, 30.8% for data types, 42.2% for shallow models, 23.7% for deep models, 8.7% for learning settings, 22.4% for supervision terminology, and 28.7% for concerns. Missing tags are not treated as verified absence of a property. The analysis reproduces the archived annual category counts and checks every cross-cell against both marginals; it does not validate the meaning of the tags.
+
+These are descriptive revision-stage outputs. They do not constitute a rerun of the historical retrieval, a source-bias adjustment, a full-text quality appraisal, or an inferential analysis of the wider literature. Original manuscript plot blocks are retained as commented source, and the original PDF assets and both archived snapshots remain available.

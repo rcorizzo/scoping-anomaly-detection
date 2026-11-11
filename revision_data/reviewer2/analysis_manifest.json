@@ -1,0 +1,96 @@
+{
+  "input_sha256": "25b09df7336b1bc8a9fc5df0a13452c5a8a5e4a997f042ad10d8e93fa19c7c61",
+  "records": 11079,
+  "python": "3.12.14",
+  "packages": {
+    "matplotlib": "3.10.7",
+    "numpy": "2.3.5",
+    "openpyxl": "3.1.5"
+  },
+  "script_sha256": "bc0ac6d8c8eebc33105ba5d71b9eab6a7ce438bcc4b48e7dc942bdd3a24d084c",
+  "files": [
+    {
+      "path": "annual-application-domains.pdf",
+      "sha256": "c0389278b5f7c4e44cbf12a7e4d8bee4f45789c035e66b52ea350777cd64fa5a"
+    },
+    {
+      "path": "annual-concerns.pdf",
+      "sha256": "ccbd69dfe01c473882ee9ae62548e67cb98f1fff7e3a1d730389911c52562b63"
+    },
+    {
+      "path": "annual-data-types.pdf",
+      "sha256": "6007860695022d8ad0c522a34f1ac053a345108e5d0bb0e223afd8b89380d897"
+    },
+    {
+      "path": "annual-deep-models.pdf",
+      "sha256": "1cb777f9e0d93d33b70e50164fac00e20e7adae9a96d3b4a8bba2e91a6d14e8a"
+    },
+    {
+      "path": "annual-learning-settings.pdf",
+      "sha256": "95d411493daeb5b8aadb2b5dfaa41b4ee353b145e1180adc785e6b88900f3c57"
+    },
+    {
+      "path": "annual-shallow-models.pdf",
+      "sha256": "76a76f18c4a4eccfef3180f53dafda783c8ed1c9c851140d7abd90f30a11a6a6"
+    },
+    {
+      "path": "annual-sources.pdf",
+      "sha256": "5dc3149daa214329e736205cc160f378598caf1974001a34bca310e8e50b7983"
+    },
+    {
+      "path": "annual-supervision-types.pdf",
+      "sha256": "fa5797965ae502552f58112f23c11b6c877f1c21904f135c5b4cac8c12b5cff1"
+    },
+    {
+      "path": "cross-domain-concerns.pdf",
+      "sha256": "9eae441879ebd52978b1701a13beb1963de6808ad0d7a3112b2938c97d64ab8b"
+    },
+    {
+      "path": "cross-domain-data-types.pdf",
+      "sha256": "02c8918071bf14bd7174a6d2c7ddc75bc3ee8187c966667052545ace4064ecdf"
+    },
+    {
+      "path": "cross-domain-deep-models.pdf",
+      "sha256": "bf4992ecbe85b1c5067b9ed40b3d81fb8ce478eb425cfcb0ccef69760063bdec"
+    }
+  ],
+  "tables": [
+    {
+      "path": "annual-denominators.tex",
+      "sha256": "739efc45dabece82d485adcc423c1de9ce9701ab914b79f28c1cb566968ec569"
+    },
+    {
+      "path": "annual.csv",
+      "sha256": "19b12af2e5bd172ffb61cd130772a0b4aa54caf1ceb286718c9cd535e98c88e1"
+    },
+    {
+      "path": "coverage-table.tex",
+      "sha256": "4a1b0c29079fba04a8af3209eae3c530b9f446c2302fae8f1299a5155c9911e1"
+    },
+    {
+      "path": "coverage.csv",
+      "sha256": "18e97add3ad9d4f3af7340ad82600d9e2ed350b156d70577f6eb3300032132ab"
+    },
+    {
+      "path": "cross-concerns-summary.tex",
+      "sha256": "327834d7050469dde4e2583c6482e6df5f4616da14db233ea0272cddb9a5dea5"
+    },
+    {
+      "path": "cross-data-types-summary.tex",
+      "sha256": "1c5afb8649a22cab4e9d14a2de2bb9081c51fccbfe993848ccaede088581f608"
+    },
+    {
+      "path": "cross-deep-models-summary.tex",
+      "sha256": "60157ba8aa3720206b03931e92db6e4801aad06938ba809badd36f2ebe4ceee8"
+    },
+    {
+      "path": "cross.csv",
+      "sha256": "c1e1a091a9864974403ee7b1d7564dc2ab5614dec6a47dd7dfd50c63eed88522"
+    },
+    {
+      "path": "record_tags.csv",
+      "sha256": "25b09df7336b1bc8a9fc5df0a13452c5a8a5e4a997f042ad10d8e93fa19c7c61"
+    }
+  ],
+  "inference": "Descriptive summaries only; no hypothesis tests or confidence intervals"
+}
