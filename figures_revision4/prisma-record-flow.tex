@@ -1,0 +1,34 @@
+\begin{tikzpicture}[
+  >=Latex,
+  font=\sffamily\small,
+  record/.style={draw=black,line width=.6pt,align=center,text width=6.2cm,
+    minimum height=1.15cm,inner sep=3mm},
+  excluded/.style={draw=black,line width=.6pt,align=center,text width=3.5cm,
+    minimum height=1.15cm,inner sep=3mm},
+  flow/.style={->,line width=.7pt}
+]
+\node[record] (identified) at (0,0)
+  {Database records identified\\\textbf{\(n=36{,}377\)}};
+\node[record] (deduplicated) at (0,-2.4)
+  {Records after duplicate removal\\\textbf{\(n=32{,}900\)}};
+\node[record] (eligible) at (0,-5.0)
+  {Records assessed by the\\automated eligibility filter\\\textbf{\(n=31{,}870\)}};
+\node[record] (retained) at (0,-7.6)
+  {Records retained for\\descriptive quantitative mapping\\\textbf{\(n=11{,}079\)}};
+
+\node[excluded] (duplicates) at (5.9,-1.2)
+  {Duplicates removed\\\textbf{\(n=3{,}477\)}};
+\node[excluded] (screenedout) at (5.9,-3.7)
+  {Outside 2016--2025: \(1{,}015\)\\
+   Incomplete metadata: \(15\)\\
+   \textbf{Total excluded: \(1{,}030\)}};
+\node[excluded] (nonrelevant) at (5.9,-6.3)
+  {Not retained by the\\automated eligibility filter\\\textbf{\(n=20{,}791\)}};
+
+\draw[flow] (identified.south) -- (deduplicated.north);
+\draw[flow] (0,-1.2) -- (duplicates.west);
+\draw[flow] (deduplicated.south) -- (eligible.north);
+\draw[flow] (0,-3.7) -- (screenedout.west);
+\draw[flow] (eligible.south) -- (retained.north);
+\draw[flow] (0,-6.3) -- (nonrelevant.west);
+\end{tikzpicture}

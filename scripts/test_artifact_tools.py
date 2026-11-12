@@ -2,13 +2,34 @@
 
 import io
 import unittest
+from pathlib import Path
+from tempfile import TemporaryDirectory
 from xml.etree import ElementTree as ET
 from zipfile import ZipFile
 
 from import_archives import clean_workbook, safe_name, NS
+from verify_snapshot import workbook_issues
 
 
 class ArchiveToolsTests(unittest.TestCase):
+    def test_verifier_accepts_empty_inline_header_cell(self):
+        data = self.workbook('''<worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><sheetData>
+        <row r="1"><c r="A1" t="inlineStr"/><c r="B1" t="inlineStr"><is><t>count</t></is></c></row>
+        <row r="2"><c r="B2"><v>11079</v></c></row></sheetData></worksheet>''')
+        with TemporaryDirectory() as folder:
+            path = Path(folder) / "counts.xlsx"
+            path.write_bytes(data)
+            self.assertEqual(workbook_issues(path), [])
+
+    def test_verifier_checks_contacts_after_empty_inline_header_cell(self):
+        data = self.workbook('''<worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><sheetData>
+        <row r="1"><c r="A1" t="inlineStr"/><c r="B1" t="inlineStr"><is><t>emails</t></is></c></row>
+        <row r="2"><c r="B2" t="inlineStr"><is><t>contact text</t></is></c></row></sheetData></worksheet>''')
+        with TemporaryDirectory() as folder:
+            path = Path(folder) / "contacts.xlsx"
+            path.write_bytes(data)
+            self.assertIn("contacts.xlsx: populated emails cell B2", workbook_issues(path))
+
     def test_safe_paths(self):
         for name in ["../escape", "/absolute", "folder/../../escape", "folder\\escape"]:
             with self.subTest(name=name), self.assertRaises(ValueError):

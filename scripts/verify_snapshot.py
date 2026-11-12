@@ -49,7 +49,8 @@ def workbook_issues(path):
                 if cell.get("t") == "s" and text is not None:
                     text = strings[int(text)]
                 elif cell.get("t") == "inlineStr":
-                    text = "".join(cell.find("s:is", NS).itertext())
+                    inline = cell.find("s:is", NS)
+                    text = "".join(inline.itertext()) if inline is not None else ""
                 if str(text).strip().lower() == "emails":
                     email_columns.add(re.sub(r"\d", "", cell.get("r", "")))
             for row in rows[1:]:
